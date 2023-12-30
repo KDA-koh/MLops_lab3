@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/cda948813489425f92a2f9d1837ff8b7/artifacts
+end_time: 1703704586248
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cda948813489425f92a2f9d1837ff8b7
+run_name: fearless-moose-977
+run_uuid: cda948813489425f92a2f9d1837ff8b7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703704584457
+status: 3
+tags: []
+user_id: kda

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/9f9634f2f2704f8cbc1f6d589947dc41/artifacts
+end_time: 1703704773902
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9f9634f2f2704f8cbc1f6d589947dc41
+run_name: sedate-mink-112
+run_uuid: 9f9634f2f2704f8cbc1f6d589947dc41
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703704772030
+status: 3
+tags: []
+user_id: kda

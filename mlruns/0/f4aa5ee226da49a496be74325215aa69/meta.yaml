@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/f4aa5ee226da49a496be74325215aa69/artifacts
+end_time: 1703704578798
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f4aa5ee226da49a496be74325215aa69
+run_name: sassy-gull-329
+run_uuid: f4aa5ee226da49a496be74325215aa69
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703704575755
+status: 3
+tags: []
+user_id: kda

@@ -38,5 +38,9 @@ with DAG(
     data_ml = BashOperator(task_id='data_ml',
                             bash_command="cd /home/kda/ML_lab3/MLops_lab3/ && python /home/kda/ML_lab3/MLops_lab3/scripts/model_learn.py", 
                             dag=dag)
+                            
+    evaluate = BashOperator(task_id='evaluate',
+                            bash_command="cd /home/kda/ML_lab3/MLops_lab3/ && python /home/kda/ML_lab3/MLops_lab3/scripts/evaluate.py", 
+                            dag=dag)
 
-    get_data >> data_1 >> data_2 >> data_3 >> data_tts >> data_ml
+    get_data >> data_1 >> data_2 >> data_3 >> data_tts >> data_ml >> evaluate

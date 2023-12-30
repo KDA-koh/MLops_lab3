@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/6c6217561edf48d2bd3132a0821597a8/artifacts
+end_time: 1703704874549
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6c6217561edf48d2bd3132a0821597a8
+run_name: stately-shark-441
+run_uuid: 6c6217561edf48d2bd3132a0821597a8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703704872733
+status: 3
+tags: []
+user_id: kda

@@ -1,0 +1,30 @@
+[2023-12-30T13:37:17.653+0500] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: KOH.evaluate manual__2023-12-30T08:28:25.360524+00:00 [queued]>
+[2023-12-30T13:37:17.662+0500] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: KOH.evaluate manual__2023-12-30T08:28:25.360524+00:00 [queued]>
+[2023-12-30T13:37:17.662+0500] {taskinstance.py:1361} INFO - Starting attempt 1 of 2
+[2023-12-30T13:37:17.686+0500] {taskinstance.py:1382} INFO - Executing <Task(BashOperator): evaluate> on 2023-12-30 08:28:25.360524+00:00
+[2023-12-30T13:37:17.688+0500] {standard_task_runner.py:57} INFO - Started process 21442 to run task
+[2023-12-30T13:37:17.692+0500] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'KOH', 'evaluate', 'manual__2023-12-30T08:28:25.360524+00:00', '--job-id', '335', '--raw', '--subdir', 'DAGS_FOLDER/text.py', '--cfg-path', '/tmp/tmp96r4wyq8']
+[2023-12-30T13:37:17.693+0500] {standard_task_runner.py:85} INFO - Job 335: Subtask evaluate
+[2023-12-30T13:37:17.783+0500] {task_command.py:416} INFO - Running <TaskInstance: KOH.evaluate manual__2023-12-30T08:28:25.360524+00:00 [running]> on host vm2.myguest.virtualbox.org
+[2023-12-30T13:37:17.900+0500] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Admin' AIRFLOW_CTX_DAG_ID='KOH' AIRFLOW_CTX_TASK_ID='evaluate' AIRFLOW_CTX_EXECUTION_DATE='2023-12-30T08:28:25.360524+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-12-30T08:28:25.360524+00:00'
+[2023-12-30T13:37:17.901+0500] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2023-12-30T13:37:17.902+0500] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'cd /home/kda/ML_lab3/MLops_lab3/ && python /home/kda/ML_lab3/MLops_lab3/scripts/evaluate.py']
+[2023-12-30T13:37:17.920+0500] {subprocess.py:86} INFO - Output:
+[2023-12-30T13:37:20.337+0500] {subprocess.py:93} INFO -      Price (in USD)  Unnamed: 0.2  Unnamed: 0.1  ...  Z4 M40i  Z4 Roadster     i8
+[2023-12-30T13:37:20.337+0500] {subprocess.py:93} INFO - 0             67600           912           912  ...    False        False  False
+[2023-12-30T13:37:20.337+0500] {subprocess.py:93} INFO - 1             81250           843           843  ...    False        False  False
+[2023-12-30T13:37:20.337+0500] {subprocess.py:93} INFO - 2             69000           293           293  ...    False        False  False
+[2023-12-30T13:37:20.337+0500] {subprocess.py:93} INFO - 3            180000           554           554  ...    False        False  False
+[2023-12-30T13:37:20.337+0500] {subprocess.py:93} INFO - 4             64695           581           581  ...    False        False  False
+[2023-12-30T13:37:20.337+0500] {subprocess.py:93} INFO - ..              ...           ...           ...  ...      ...          ...    ...
+[2023-12-30T13:37:20.337+0500] {subprocess.py:93} INFO - 298          250000           951           951  ...    False        False  False
+[2023-12-30T13:37:20.337+0500] {subprocess.py:93} INFO - 299         2600000           523           523  ...    False        False  False
+[2023-12-30T13:37:20.338+0500] {subprocess.py:93} INFO - 300          103500            61            61  ...    False        False  False
+[2023-12-30T13:37:20.339+0500] {subprocess.py:93} INFO - 301          157500           355           355  ...    False        False  False
+[2023-12-30T13:37:20.339+0500] {subprocess.py:93} INFO - 302          200000           335           335  ...    False        False  False
+[2023-12-30T13:37:20.339+0500] {subprocess.py:93} INFO - 
+[2023-12-30T13:37:20.339+0500] {subprocess.py:93} INFO - [303 rows x 220 columns]
+[2023-12-30T13:37:20.897+0500] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-12-30T13:37:21.002+0500] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=KOH, task_id=evaluate, execution_date=20231230T082825, start_date=20231230T083717, end_date=20231230T083720
+[2023-12-30T13:37:21.140+0500] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-30T13:37:21.151+0500] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

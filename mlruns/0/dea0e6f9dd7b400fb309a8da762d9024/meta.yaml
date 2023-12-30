@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/dea0e6f9dd7b400fb309a8da762d9024/artifacts
+end_time: 1703703267895
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: dea0e6f9dd7b400fb309a8da762d9024
+run_name: skillful-ant-949
+run_uuid: dea0e6f9dd7b400fb309a8da762d9024
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703703265643
+status: 3
+tags: []
+user_id: kda

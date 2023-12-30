@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/ffe2b29bc0fd41a0a22f79e1fac118b5/artifacts
+end_time: 1703703257249
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ffe2b29bc0fd41a0a22f79e1fac118b5
+run_name: delicate-wren-244
+run_uuid: ffe2b29bc0fd41a0a22f79e1fac118b5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703703252788
+status: 3
+tags: []
+user_id: kda

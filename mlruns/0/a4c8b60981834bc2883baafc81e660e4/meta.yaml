@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/a4c8b60981834bc2883baafc81e660e4/artifacts
+end_time: 1703703114630
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a4c8b60981834bc2883baafc81e660e4
+run_name: adorable-crab-992
+run_uuid: a4c8b60981834bc2883baafc81e660e4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703703110102
+status: 3
+tags: []
+user_id: kda

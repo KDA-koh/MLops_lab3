@@ -1,0 +1,33 @@
+[2023-12-27T23:45:45.905+0500] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: KOH.evaluate manual__2023-12-27T18:39:39.397051+00:00 [queued]>
+[2023-12-27T23:45:45.914+0500] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: KOH.evaluate manual__2023-12-27T18:39:39.397051+00:00 [queued]>
+[2023-12-27T23:45:45.915+0500] {taskinstance.py:1361} INFO - Starting attempt 2 of 2
+[2023-12-27T23:45:45.967+0500] {taskinstance.py:1382} INFO - Executing <Task(BashOperator): evaluate> on 2023-12-27 18:39:39.397051+00:00
+[2023-12-27T23:45:45.977+0500] {standard_task_runner.py:57} INFO - Started process 6490 to run task
+[2023-12-27T23:45:45.994+0500] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'KOH', 'evaluate', 'manual__2023-12-27T18:39:39.397051+00:00', '--job-id', '203', '--raw', '--subdir', 'DAGS_FOLDER/text.py', '--cfg-path', '/tmp/tmpl1zps23y']
+[2023-12-27T23:45:45.997+0500] {standard_task_runner.py:85} INFO - Job 203: Subtask evaluate
+[2023-12-27T23:45:46.148+0500] {task_command.py:416} INFO - Running <TaskInstance: KOH.evaluate manual__2023-12-27T18:39:39.397051+00:00 [running]> on host vm2.myguest.virtualbox.org
+[2023-12-27T23:45:46.363+0500] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Admin' AIRFLOW_CTX_DAG_ID='KOH' AIRFLOW_CTX_TASK_ID='evaluate' AIRFLOW_CTX_EXECUTION_DATE='2023-12-27T18:39:39.397051+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-12-27T18:39:39.397051+00:00'
+[2023-12-27T23:45:46.364+0500] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2023-12-27T23:45:46.364+0500] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'cd /home/kda/ML_lab3/MLops_lab3/ && python /home/kda/ML_lab3/MLops_lab3/scripts/evaluate.py']
+[2023-12-27T23:45:46.397+0500] {subprocess.py:86} INFO - Output:
+[2023-12-27T23:45:50.460+0500] {subprocess.py:93} INFO - <class 'pandas.core.frame.DataFrame'>
+[2023-12-27T23:45:50.461+0500] {subprocess.py:93} INFO - RangeIndex: 704 entries, 0 to 703
+[2023-12-27T23:45:50.461+0500] {subprocess.py:93} INFO - Columns: 220 entries, Price (in USD) to i8
+[2023-12-27T23:45:50.462+0500] {subprocess.py:93} INFO - dtypes: bool(212), float64(2), int64(6)
+[2023-12-27T23:45:50.462+0500] {subprocess.py:93} INFO - memory usage: 189.9 KB
+[2023-12-27T23:45:50.462+0500] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2023-12-27T23:45:50.462+0500] {subprocess.py:93} INFO -   File "/home/kda/ML_lab3/MLops_lab3/scripts/evaluate.py", line 64, in <module>
+[2023-12-27T23:45:50.463+0500] {subprocess.py:93} INFO -     tune_hyperparams(depth,feature,leaf)
+[2023-12-27T23:45:50.463+0500] {subprocess.py:93} INFO -   File "/home/kda/ML_lab3/MLops_lab3/scripts/evaluate.py", line 51, in tune_hyperparams
+[2023-12-27T23:45:50.463+0500] {subprocess.py:93} INFO -     clf = DecisionTreeClassifier(p_max_depth = params["max_depth"],p_max_features = params["max_features"],p_min_samples_leaf=params[min_samples_leaf])
+[2023-12-27T23:45:50.463+0500] {subprocess.py:93} INFO - TypeError: unhashable type: 'list'
+[2023-12-27T23:45:51.170+0500] {subprocess.py:97} INFO - Command exited with return code 1
+[2023-12-27T23:45:51.185+0500] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/airflow/operators/bash.py", line 210, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2023-12-27T23:45:51.192+0500] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=KOH, task_id=evaluate, execution_date=20231227T183939, start_date=20231227T184545, end_date=20231227T184551
+[2023-12-27T23:45:51.226+0500] {standard_task_runner.py:104} ERROR - Failed to execute job 203 for task evaluate (Bash command failed. The command returned a non-zero exit code 1.; 6490)
+[2023-12-27T23:45:51.267+0500] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-12-27T23:45:51.315+0500] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

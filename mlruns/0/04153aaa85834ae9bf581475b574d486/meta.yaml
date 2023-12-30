@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/04153aaa85834ae9bf581475b574d486/artifacts
+end_time: 1703704026907
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 04153aaa85834ae9bf581475b574d486
+run_name: popular-calf-560
+run_uuid: 04153aaa85834ae9bf581475b574d486
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703704025260
+status: 3
+tags: []
+user_id: kda

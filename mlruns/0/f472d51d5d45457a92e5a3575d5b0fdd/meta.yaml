@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/f472d51d5d45457a92e5a3575d5b0fdd/artifacts
+end_time: 1703704777437
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f472d51d5d45457a92e5a3575d5b0fdd
+run_name: upset-pig-121
+run_uuid: f472d51d5d45457a92e5a3575d5b0fdd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703704775685
+status: 3
+tags: []
+user_id: kda

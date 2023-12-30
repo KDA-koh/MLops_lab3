@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/25b86f4c6fc64f58b5ed0295ad6010f3/artifacts
+end_time: 1703704557202
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 25b86f4c6fc64f58b5ed0295ad6010f3
+run_name: entertaining-roo-242
+run_uuid: 25b86f4c6fc64f58b5ed0295ad6010f3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703704555244
+status: 3
+tags: []
+user_id: kda

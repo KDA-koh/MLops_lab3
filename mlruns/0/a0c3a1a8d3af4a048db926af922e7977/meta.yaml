@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/a0c3a1a8d3af4a048db926af922e7977/artifacts
+end_time: 1703702757005
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a0c3a1a8d3af4a048db926af922e7977
+run_name: sincere-koi-42
+run_uuid: a0c3a1a8d3af4a048db926af922e7977
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703702756979
+status: 4
+tags: []
+user_id: kda

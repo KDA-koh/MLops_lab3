@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/6d9212a398414c8997b7645ba3f48364/artifacts
+end_time: 1703703118799
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6d9212a398414c8997b7645ba3f48364
+run_name: intrigued-moose-489
+run_uuid: 6d9212a398414c8997b7645ba3f48364
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703703114636
+status: 3
+tags: []
+user_id: kda

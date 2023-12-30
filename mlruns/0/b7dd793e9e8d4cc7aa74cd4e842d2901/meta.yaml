@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/b7dd793e9e8d4cc7aa74cd4e842d2901/artifacts
+end_time: 1703704060392
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b7dd793e9e8d4cc7aa74cd4e842d2901
+run_name: secretive-dog-852
+run_uuid: b7dd793e9e8d4cc7aa74cd4e842d2901
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703704058809
+status: 3
+tags: []
+user_id: kda

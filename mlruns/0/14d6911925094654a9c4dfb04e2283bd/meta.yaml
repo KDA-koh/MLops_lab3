@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/14d6911925094654a9c4dfb04e2283bd/artifacts
+end_time: 1703704756759
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 14d6911925094654a9c4dfb04e2283bd
+run_name: ambitious-smelt-524
+run_uuid: 14d6911925094654a9c4dfb04e2283bd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703704754913
+status: 3
+tags: []
+user_id: kda

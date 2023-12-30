@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/391b99daac94475490b2c1368cbbae22/artifacts
+end_time: 1703703127480
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 391b99daac94475490b2c1368cbbae22
+run_name: clean-yak-110
+run_uuid: 391b99daac94475490b2c1368cbbae22
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703703123389
+status: 3
+tags: []
+user_id: kda

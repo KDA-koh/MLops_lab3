@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/3d26a779b0184f07af177ab720ae70e3/artifacts
+end_time: 1703704050938
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3d26a779b0184f07af177ab720ae70e3
+run_name: serious-swan-958
+run_uuid: 3d26a779b0184f07af177ab720ae70e3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703704049321
+status: 3
+tags: []
+user_id: kda

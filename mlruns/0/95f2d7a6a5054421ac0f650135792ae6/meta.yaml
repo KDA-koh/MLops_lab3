@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/95f2d7a6a5054421ac0f650135792ae6/artifacts
+end_time: 1703703207698
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 95f2d7a6a5054421ac0f650135792ae6
+run_name: thundering-fish-629
+run_uuid: 95f2d7a6a5054421ac0f650135792ae6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703703204340
+status: 3
+tags: []
+user_id: kda

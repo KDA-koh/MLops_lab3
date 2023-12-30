@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/4ec1108f2bef4435bf2e0a5d3ed42d03/artifacts
+end_time: 1703704753153
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4ec1108f2bef4435bf2e0a5d3ed42d03
+run_name: skittish-hen-293
+run_uuid: 4ec1108f2bef4435bf2e0a5d3ed42d03
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703704751307
+status: 3
+tags: []
+user_id: kda

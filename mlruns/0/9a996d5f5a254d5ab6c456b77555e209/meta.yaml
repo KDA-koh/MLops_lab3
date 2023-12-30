@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/9a996d5f5a254d5ab6c456b77555e209/artifacts
+end_time: 1703704870596
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9a996d5f5a254d5ab6c456b77555e209
+run_name: burly-cub-519
+run_uuid: 9a996d5f5a254d5ab6c456b77555e209
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703704868884
+status: 3
+tags: []
+user_id: kda

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/8fa10bc40071442badf29d237135aa45/artifacts
+end_time: 1703704039744
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8fa10bc40071442badf29d237135aa45
+run_name: dashing-duck-56
+run_uuid: 8fa10bc40071442badf29d237135aa45
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703704038127
+status: 3
+tags: []
+user_id: kda

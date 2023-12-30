@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/8a112b0149234ff9b106b910fcd10812/artifacts
+end_time: 1703704879840
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8a112b0149234ff9b106b910fcd10812
+run_name: glamorous-asp-142
+run_uuid: 8a112b0149234ff9b106b910fcd10812
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703704878214
+status: 3
+tags: []
+user_id: kda

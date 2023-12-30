@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/3e98f840e67a40288e15c8e957efe985/artifacts
+end_time: 1703704878210
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3e98f840e67a40288e15c8e957efe985
+run_name: luxuriant-ox-81
+run_uuid: 3e98f840e67a40288e15c8e957efe985
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703704876370
+status: 3
+tags: []
+user_id: kda

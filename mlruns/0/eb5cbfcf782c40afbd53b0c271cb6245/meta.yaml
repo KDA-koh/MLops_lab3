@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/eb5cbfcf782c40afbd53b0c271cb6245/artifacts
+end_time: 1703704545480
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: eb5cbfcf782c40afbd53b0c271cb6245
+run_name: kindly-penguin-488
+run_uuid: eb5cbfcf782c40afbd53b0c271cb6245
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703704542710
+status: 3
+tags: []
+user_id: kda

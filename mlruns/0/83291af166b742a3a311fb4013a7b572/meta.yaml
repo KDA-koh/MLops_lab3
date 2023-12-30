@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/83291af166b742a3a311fb4013a7b572/artifacts
+end_time: 1703703354520
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 83291af166b742a3a311fb4013a7b572
+run_name: handsome-frog-52
+run_uuid: 83291af166b742a3a311fb4013a7b572
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703703352632
+status: 3
+tags: []
+user_id: kda

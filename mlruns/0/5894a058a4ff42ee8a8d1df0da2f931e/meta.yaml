@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/5894a058a4ff42ee8a8d1df0da2f931e/artifacts
+end_time: 1703704028436
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5894a058a4ff42ee8a8d1df0da2f931e
+run_name: silent-trout-460
+run_uuid: 5894a058a4ff42ee8a8d1df0da2f931e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703704026910
+status: 3
+tags: []
+user_id: kda

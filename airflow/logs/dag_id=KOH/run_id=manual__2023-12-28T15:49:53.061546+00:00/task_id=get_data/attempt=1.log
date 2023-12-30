@@ -1,0 +1,20 @@
+[2023-12-28T20:49:56.972+0500] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: KOH.get_data manual__2023-12-28T15:49:53.061546+00:00 [queued]>
+[2023-12-28T20:49:56.981+0500] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: KOH.get_data manual__2023-12-28T15:49:53.061546+00:00 [queued]>
+[2023-12-28T20:49:56.981+0500] {taskinstance.py:1361} INFO - Starting attempt 1 of 2
+[2023-12-28T20:49:57.011+0500] {taskinstance.py:1382} INFO - Executing <Task(BashOperator): get_data> on 2023-12-28 15:49:53.061546+00:00
+[2023-12-28T20:49:57.017+0500] {standard_task_runner.py:57} INFO - Started process 13404 to run task
+[2023-12-28T20:49:57.024+0500] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'KOH', 'get_data', 'manual__2023-12-28T15:49:53.061546+00:00', '--job-id', '260', '--raw', '--subdir', 'DAGS_FOLDER/text.py', '--cfg-path', '/tmp/tmpxleykkim']
+[2023-12-28T20:49:57.026+0500] {standard_task_runner.py:85} INFO - Job 260: Subtask get_data
+[2023-12-28T20:49:57.092+0500] {task_command.py:416} INFO - Running <TaskInstance: KOH.get_data manual__2023-12-28T15:49:53.061546+00:00 [running]> on host vm2.myguest.virtualbox.org
+[2023-12-28T20:49:57.335+0500] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Admin' AIRFLOW_CTX_DAG_ID='KOH' AIRFLOW_CTX_TASK_ID='get_data' AIRFLOW_CTX_EXECUTION_DATE='2023-12-28T15:49:53.061546+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-12-28T15:49:53.061546+00:00'
+[2023-12-28T20:49:57.337+0500] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2023-12-28T20:49:57.339+0500] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'cd /home/kda/ML_lab3/MLops_lab3/datasets && gdown 1X-mGhWO8DwPLljP1e0gkdAloD-GL8SLq']
+[2023-12-28T20:49:57.368+0500] {subprocess.py:86} INFO - Output:
+[2023-12-28T20:49:59.222+0500] {subprocess.py:93} INFO - Downloading...
+[2023-12-28T20:49:59.222+0500] {subprocess.py:93} INFO - From: https://drive.google.com/uc?id=1X-mGhWO8DwPLljP1e0gkdAloD-GL8SLq
+[2023-12-28T20:49:59.223+0500] {subprocess.py:93} INFO - To: /home/kda/ML_lab3/MLops_lab3/datasets/Sport_car_price.csv
+[2023-12-28T20:49:59.275+0500] {subprocess.py:93} INFO -   0%|          | 0.00/49.2k [00:00<?, ?B/s]100%|##########| 49.2k/49.2k [00:00<00:00, 2.92MB/s]
+[2023-12-28T20:49:59.334+0500] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-12-28T20:49:59.368+0500] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=KOH, task_id=get_data, execution_date=20231228T154953, start_date=20231228T154956, end_date=20231228T154959
+[2023-12-28T20:49:59.404+0500] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-28T20:49:59.439+0500] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

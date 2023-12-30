@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/e2565a11ffa04b3ab3680d0b041561ec/artifacts
+end_time: 1703703136125
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e2565a11ffa04b3ab3680d0b041561ec
+run_name: chill-hen-410
+run_uuid: e2565a11ffa04b3ab3680d0b041561ec
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703703131332
+status: 3
+tags: []
+user_id: kda

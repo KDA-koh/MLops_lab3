@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/bb35132acd734d48a4778e91e7fb7dbe/artifacts
+end_time: 1703704783557
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: bb35132acd734d48a4778e91e7fb7dbe
+run_name: gaudy-rook-897
+run_uuid: bb35132acd734d48a4778e91e7fb7dbe
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703704781378
+status: 3
+tags: []
+user_id: kda

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/c3d3eee129de4618b41541115e4db7fe/artifacts
+end_time: 1703704847874
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c3d3eee129de4618b41541115e4db7fe
+run_name: vaunted-hare-659
+run_uuid: c3d3eee129de4618b41541115e4db7fe
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703704846215
+status: 3
+tags: []
+user_id: kda

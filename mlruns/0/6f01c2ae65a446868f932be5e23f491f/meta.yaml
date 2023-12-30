@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/6f01c2ae65a446868f932be5e23f491f/artifacts
+end_time: 1703704023458
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6f01c2ae65a446868f932be5e23f491f
+run_name: capable-snail-755
+run_uuid: 6f01c2ae65a446868f932be5e23f491f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703704021851
+status: 3
+tags: []
+user_id: kda

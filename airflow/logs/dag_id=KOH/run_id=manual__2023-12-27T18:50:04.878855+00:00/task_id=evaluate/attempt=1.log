@@ -1,0 +1,193 @@
+[2023-12-27T23:52:47.598+0500] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: KOH.evaluate manual__2023-12-27T18:50:04.878855+00:00 [queued]>
+[2023-12-27T23:52:47.607+0500] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: KOH.evaluate manual__2023-12-27T18:50:04.878855+00:00 [queued]>
+[2023-12-27T23:52:47.607+0500] {taskinstance.py:1361} INFO - Starting attempt 1 of 2
+[2023-12-27T23:52:47.669+0500] {taskinstance.py:1382} INFO - Executing <Task(BashOperator): evaluate> on 2023-12-27 18:50:04.878855+00:00
+[2023-12-27T23:52:47.673+0500] {standard_task_runner.py:57} INFO - Started process 6916 to run task
+[2023-12-27T23:52:47.680+0500] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'KOH', 'evaluate', 'manual__2023-12-27T18:50:04.878855+00:00', '--job-id', '220', '--raw', '--subdir', 'DAGS_FOLDER/text.py', '--cfg-path', '/tmp/tmpo49p24sk']
+[2023-12-27T23:52:47.682+0500] {standard_task_runner.py:85} INFO - Job 220: Subtask evaluate
+[2023-12-27T23:52:47.840+0500] {task_command.py:416} INFO - Running <TaskInstance: KOH.evaluate manual__2023-12-27T18:50:04.878855+00:00 [running]> on host vm2.myguest.virtualbox.org
+[2023-12-27T23:52:48.109+0500] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Admin' AIRFLOW_CTX_DAG_ID='KOH' AIRFLOW_CTX_TASK_ID='evaluate' AIRFLOW_CTX_EXECUTION_DATE='2023-12-27T18:50:04.878855+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-12-27T18:50:04.878855+00:00'
+[2023-12-27T23:52:48.110+0500] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2023-12-27T23:52:48.112+0500] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'cd /home/kda/ML_lab3/MLops_lab3/ && python /home/kda/ML_lab3/MLops_lab3/scripts/evaluate.py']
+[2023-12-27T23:52:48.128+0500] {subprocess.py:86} INFO - Output:
+[2023-12-27T23:52:56.417+0500] {subprocess.py:93} INFO - Registered model 'clf' already exists. Creating a new version of this model...
+[2023-12-27T23:52:56.489+0500] {subprocess.py:93} INFO - Created version '19' of model 'clf'.
+[2023-12-27T23:53:00.795+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:18: UserWarning: Distutils was imported before Setuptools, but importing Setuptools also replaces the `distutils` module in `sys.modules`. This may lead to undesirable behaviors or errors. To avoid these issues, avoid using distutils directly, ensure that setuptools is installed in the traditional way (e.g. not an editable install), and/or make sure that setuptools is always imported before distutils.
+[2023-12-27T23:53:00.796+0500] {subprocess.py:93} INFO -   warnings.warn(
+[2023-12-27T23:53:00.796+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:33: UserWarning: Setuptools is replacing distutils.
+[2023-12-27T23:53:00.797+0500] {subprocess.py:93} INFO -   warnings.warn("Setuptools is replacing distutils.")
+[2023-12-27T23:53:00.817+0500] {subprocess.py:93} INFO - Registered model 'clf' already exists. Creating a new version of this model...
+[2023-12-27T23:53:00.869+0500] {subprocess.py:93} INFO - Created version '20' of model 'clf'.
+[2023-12-27T23:53:03.379+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:18: UserWarning: Distutils was imported before Setuptools, but importing Setuptools also replaces the `distutils` module in `sys.modules`. This may lead to undesirable behaviors or errors. To avoid these issues, avoid using distutils directly, ensure that setuptools is installed in the traditional way (e.g. not an editable install), and/or make sure that setuptools is always imported before distutils.
+[2023-12-27T23:53:03.381+0500] {subprocess.py:93} INFO -   warnings.warn(
+[2023-12-27T23:53:03.384+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:33: UserWarning: Setuptools is replacing distutils.
+[2023-12-27T23:53:03.394+0500] {subprocess.py:93} INFO -   warnings.warn("Setuptools is replacing distutils.")
+[2023-12-27T23:53:03.413+0500] {subprocess.py:93} INFO - Registered model 'clf' already exists. Creating a new version of this model...
+[2023-12-27T23:53:03.480+0500] {subprocess.py:93} INFO - Created version '21' of model 'clf'.
+[2023-12-27T23:53:08.145+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:18: UserWarning: Distutils was imported before Setuptools, but importing Setuptools also replaces the `distutils` module in `sys.modules`. This may lead to undesirable behaviors or errors. To avoid these issues, avoid using distutils directly, ensure that setuptools is installed in the traditional way (e.g. not an editable install), and/or make sure that setuptools is always imported before distutils.
+[2023-12-27T23:53:08.145+0500] {subprocess.py:93} INFO -   warnings.warn(
+[2023-12-27T23:53:08.145+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:33: UserWarning: Setuptools is replacing distutils.
+[2023-12-27T23:53:08.146+0500] {subprocess.py:93} INFO -   warnings.warn("Setuptools is replacing distutils.")
+[2023-12-27T23:53:08.171+0500] {subprocess.py:93} INFO - Registered model 'clf' already exists. Creating a new version of this model...
+[2023-12-27T23:53:08.246+0500] {subprocess.py:93} INFO - Created version '22' of model 'clf'.
+[2023-12-27T23:53:12.526+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:18: UserWarning: Distutils was imported before Setuptools, but importing Setuptools also replaces the `distutils` module in `sys.modules`. This may lead to undesirable behaviors or errors. To avoid these issues, avoid using distutils directly, ensure that setuptools is installed in the traditional way (e.g. not an editable install), and/or make sure that setuptools is always imported before distutils.
+[2023-12-27T23:53:12.526+0500] {subprocess.py:93} INFO -   warnings.warn(
+[2023-12-27T23:53:12.527+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:33: UserWarning: Setuptools is replacing distutils.
+[2023-12-27T23:53:12.527+0500] {subprocess.py:93} INFO -   warnings.warn("Setuptools is replacing distutils.")
+[2023-12-27T23:53:12.540+0500] {subprocess.py:93} INFO - Registered model 'clf' already exists. Creating a new version of this model...
+[2023-12-27T23:53:12.580+0500] {subprocess.py:93} INFO - Created version '23' of model 'clf'.
+[2023-12-27T23:53:15.300+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:18: UserWarning: Distutils was imported before Setuptools, but importing Setuptools also replaces the `distutils` module in `sys.modules`. This may lead to undesirable behaviors or errors. To avoid these issues, avoid using distutils directly, ensure that setuptools is installed in the traditional way (e.g. not an editable install), and/or make sure that setuptools is always imported before distutils.
+[2023-12-27T23:53:15.300+0500] {subprocess.py:93} INFO -   warnings.warn(
+[2023-12-27T23:53:15.300+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:33: UserWarning: Setuptools is replacing distutils.
+[2023-12-27T23:53:15.300+0500] {subprocess.py:93} INFO -   warnings.warn("Setuptools is replacing distutils.")
+[2023-12-27T23:53:15.313+0500] {subprocess.py:93} INFO - Registered model 'clf' already exists. Creating a new version of this model...
+[2023-12-27T23:53:15.365+0500] {subprocess.py:93} INFO - Created version '24' of model 'clf'.
+[2023-12-27T23:53:19.499+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:18: UserWarning: Distutils was imported before Setuptools, but importing Setuptools also replaces the `distutils` module in `sys.modules`. This may lead to undesirable behaviors or errors. To avoid these issues, avoid using distutils directly, ensure that setuptools is installed in the traditional way (e.g. not an editable install), and/or make sure that setuptools is always imported before distutils.
+[2023-12-27T23:53:19.500+0500] {subprocess.py:93} INFO -   warnings.warn(
+[2023-12-27T23:53:19.501+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:33: UserWarning: Setuptools is replacing distutils.
+[2023-12-27T23:53:19.501+0500] {subprocess.py:93} INFO -   warnings.warn("Setuptools is replacing distutils.")
+[2023-12-27T23:53:19.530+0500] {subprocess.py:93} INFO - Registered model 'clf' already exists. Creating a new version of this model...
+[2023-12-27T23:53:19.575+0500] {subprocess.py:93} INFO - Created version '25' of model 'clf'.
+[2023-12-27T23:53:21.857+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:18: UserWarning: Distutils was imported before Setuptools, but importing Setuptools also replaces the `distutils` module in `sys.modules`. This may lead to undesirable behaviors or errors. To avoid these issues, avoid using distutils directly, ensure that setuptools is installed in the traditional way (e.g. not an editable install), and/or make sure that setuptools is always imported before distutils.
+[2023-12-27T23:53:21.857+0500] {subprocess.py:93} INFO -   warnings.warn(
+[2023-12-27T23:53:21.857+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:33: UserWarning: Setuptools is replacing distutils.
+[2023-12-27T23:53:21.857+0500] {subprocess.py:93} INFO -   warnings.warn("Setuptools is replacing distutils.")
+[2023-12-27T23:53:21.871+0500] {subprocess.py:93} INFO - Registered model 'clf' already exists. Creating a new version of this model...
+[2023-12-27T23:53:21.918+0500] {subprocess.py:93} INFO - Created version '26' of model 'clf'.
+[2023-12-27T23:53:24.225+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:18: UserWarning: Distutils was imported before Setuptools, but importing Setuptools also replaces the `distutils` module in `sys.modules`. This may lead to undesirable behaviors or errors. To avoid these issues, avoid using distutils directly, ensure that setuptools is installed in the traditional way (e.g. not an editable install), and/or make sure that setuptools is always imported before distutils.
+[2023-12-27T23:53:24.226+0500] {subprocess.py:93} INFO -   warnings.warn(
+[2023-12-27T23:53:24.226+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:33: UserWarning: Setuptools is replacing distutils.
+[2023-12-27T23:53:24.226+0500] {subprocess.py:93} INFO -   warnings.warn("Setuptools is replacing distutils.")
+[2023-12-27T23:53:24.257+0500] {subprocess.py:93} INFO - Registered model 'clf' already exists. Creating a new version of this model...
+[2023-12-27T23:53:24.309+0500] {subprocess.py:93} INFO - Created version '27' of model 'clf'.
+[2023-12-27T23:53:27.655+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:18: UserWarning: Distutils was imported before Setuptools, but importing Setuptools also replaces the `distutils` module in `sys.modules`. This may lead to undesirable behaviors or errors. To avoid these issues, avoid using distutils directly, ensure that setuptools is installed in the traditional way (e.g. not an editable install), and/or make sure that setuptools is always imported before distutils.
+[2023-12-27T23:53:27.656+0500] {subprocess.py:93} INFO -   warnings.warn(
+[2023-12-27T23:53:27.656+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:33: UserWarning: Setuptools is replacing distutils.
+[2023-12-27T23:53:27.656+0500] {subprocess.py:93} INFO -   warnings.warn("Setuptools is replacing distutils.")
+[2023-12-27T23:53:27.663+0500] {subprocess.py:93} INFO - Registered model 'clf' already exists. Creating a new version of this model...
+[2023-12-27T23:53:27.691+0500] {subprocess.py:93} INFO - Created version '28' of model 'clf'.
+[2023-12-27T23:53:30.643+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:18: UserWarning: Distutils was imported before Setuptools, but importing Setuptools also replaces the `distutils` module in `sys.modules`. This may lead to undesirable behaviors or errors. To avoid these issues, avoid using distutils directly, ensure that setuptools is installed in the traditional way (e.g. not an editable install), and/or make sure that setuptools is always imported before distutils.
+[2023-12-27T23:53:30.643+0500] {subprocess.py:93} INFO -   warnings.warn(
+[2023-12-27T23:53:30.643+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:33: UserWarning: Setuptools is replacing distutils.
+[2023-12-27T23:53:30.643+0500] {subprocess.py:93} INFO -   warnings.warn("Setuptools is replacing distutils.")
+[2023-12-27T23:53:30.663+0500] {subprocess.py:93} INFO - Registered model 'clf' already exists. Creating a new version of this model...
+[2023-12-27T23:53:30.912+0500] {subprocess.py:93} INFO - Created version '29' of model 'clf'.
+[2023-12-27T23:53:37.403+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:18: UserWarning: Distutils was imported before Setuptools, but importing Setuptools also replaces the `distutils` module in `sys.modules`. This may lead to undesirable behaviors or errors. To avoid these issues, avoid using distutils directly, ensure that setuptools is installed in the traditional way (e.g. not an editable install), and/or make sure that setuptools is always imported before distutils.
+[2023-12-27T23:53:37.403+0500] {subprocess.py:93} INFO -   warnings.warn(
+[2023-12-27T23:53:37.403+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:33: UserWarning: Setuptools is replacing distutils.
+[2023-12-27T23:53:37.403+0500] {subprocess.py:93} INFO -   warnings.warn("Setuptools is replacing distutils.")
+[2023-12-27T23:53:37.464+0500] {subprocess.py:93} INFO - Registered model 'clf' already exists. Creating a new version of this model...
+[2023-12-27T23:53:37.543+0500] {subprocess.py:93} INFO - Created version '30' of model 'clf'.
+[2023-12-27T23:53:40.734+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:18: UserWarning: Distutils was imported before Setuptools, but importing Setuptools also replaces the `distutils` module in `sys.modules`. This may lead to undesirable behaviors or errors. To avoid these issues, avoid using distutils directly, ensure that setuptools is installed in the traditional way (e.g. not an editable install), and/or make sure that setuptools is always imported before distutils.
+[2023-12-27T23:53:40.734+0500] {subprocess.py:93} INFO -   warnings.warn(
+[2023-12-27T23:53:40.734+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:33: UserWarning: Setuptools is replacing distutils.
+[2023-12-27T23:53:40.734+0500] {subprocess.py:93} INFO -   warnings.warn("Setuptools is replacing distutils.")
+[2023-12-27T23:53:40.742+0500] {subprocess.py:93} INFO - Registered model 'clf' already exists. Creating a new version of this model...
+[2023-12-27T23:53:40.771+0500] {subprocess.py:93} INFO - Created version '31' of model 'clf'.
+[2023-12-27T23:53:43.521+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:18: UserWarning: Distutils was imported before Setuptools, but importing Setuptools also replaces the `distutils` module in `sys.modules`. This may lead to undesirable behaviors or errors. To avoid these issues, avoid using distutils directly, ensure that setuptools is installed in the traditional way (e.g. not an editable install), and/or make sure that setuptools is always imported before distutils.
+[2023-12-27T23:53:43.521+0500] {subprocess.py:93} INFO -   warnings.warn(
+[2023-12-27T23:53:43.521+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:33: UserWarning: Setuptools is replacing distutils.
+[2023-12-27T23:53:43.521+0500] {subprocess.py:93} INFO -   warnings.warn("Setuptools is replacing distutils.")
+[2023-12-27T23:53:43.530+0500] {subprocess.py:93} INFO - Registered model 'clf' already exists. Creating a new version of this model...
+[2023-12-27T23:53:43.584+0500] {subprocess.py:93} INFO - Created version '32' of model 'clf'.
+[2023-12-27T23:53:47.743+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:18: UserWarning: Distutils was imported before Setuptools, but importing Setuptools also replaces the `distutils` module in `sys.modules`. This may lead to undesirable behaviors or errors. To avoid these issues, avoid using distutils directly, ensure that setuptools is installed in the traditional way (e.g. not an editable install), and/or make sure that setuptools is always imported before distutils.
+[2023-12-27T23:53:47.743+0500] {subprocess.py:93} INFO -   warnings.warn(
+[2023-12-27T23:53:47.743+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:33: UserWarning: Setuptools is replacing distutils.
+[2023-12-27T23:53:47.743+0500] {subprocess.py:93} INFO -   warnings.warn("Setuptools is replacing distutils.")
+[2023-12-27T23:53:47.764+0500] {subprocess.py:93} INFO - Registered model 'clf' already exists. Creating a new version of this model...
+[2023-12-27T23:53:47.826+0500] {subprocess.py:93} INFO - Created version '33' of model 'clf'.
+[2023-12-27T23:53:52.644+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:18: UserWarning: Distutils was imported before Setuptools, but importing Setuptools also replaces the `distutils` module in `sys.modules`. This may lead to undesirable behaviors or errors. To avoid these issues, avoid using distutils directly, ensure that setuptools is installed in the traditional way (e.g. not an editable install), and/or make sure that setuptools is always imported before distutils.
+[2023-12-27T23:53:52.644+0500] {subprocess.py:93} INFO -   warnings.warn(
+[2023-12-27T23:53:52.645+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:33: UserWarning: Setuptools is replacing distutils.
+[2023-12-27T23:53:52.645+0500] {subprocess.py:93} INFO -   warnings.warn("Setuptools is replacing distutils.")
+[2023-12-27T23:53:52.676+0500] {subprocess.py:93} INFO - Registered model 'clf' already exists. Creating a new version of this model...
+[2023-12-27T23:53:52.759+0500] {subprocess.py:93} INFO - Created version '34' of model 'clf'.
+[2023-12-27T23:53:57.777+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:18: UserWarning: Distutils was imported before Setuptools, but importing Setuptools also replaces the `distutils` module in `sys.modules`. This may lead to undesirable behaviors or errors. To avoid these issues, avoid using distutils directly, ensure that setuptools is installed in the traditional way (e.g. not an editable install), and/or make sure that setuptools is always imported before distutils.
+[2023-12-27T23:53:57.778+0500] {subprocess.py:93} INFO -   warnings.warn(
+[2023-12-27T23:53:57.778+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:33: UserWarning: Setuptools is replacing distutils.
+[2023-12-27T23:53:57.778+0500] {subprocess.py:93} INFO -   warnings.warn("Setuptools is replacing distutils.")
+[2023-12-27T23:53:57.811+0500] {subprocess.py:93} INFO - Registered model 'clf' already exists. Creating a new version of this model...
+[2023-12-27T23:53:57.867+0500] {subprocess.py:93} INFO - Created version '35' of model 'clf'.
+[2023-12-27T23:54:02.938+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:18: UserWarning: Distutils was imported before Setuptools, but importing Setuptools also replaces the `distutils` module in `sys.modules`. This may lead to undesirable behaviors or errors. To avoid these issues, avoid using distutils directly, ensure that setuptools is installed in the traditional way (e.g. not an editable install), and/or make sure that setuptools is always imported before distutils.
+[2023-12-27T23:54:02.938+0500] {subprocess.py:93} INFO -   warnings.warn(
+[2023-12-27T23:54:02.940+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:33: UserWarning: Setuptools is replacing distutils.
+[2023-12-27T23:54:02.940+0500] {subprocess.py:93} INFO -   warnings.warn("Setuptools is replacing distutils.")
+[2023-12-27T23:54:02.960+0500] {subprocess.py:93} INFO - Registered model 'clf' already exists. Creating a new version of this model...
+[2023-12-27T23:54:03.035+0500] {subprocess.py:93} INFO - Created version '36' of model 'clf'.
+[2023-12-27T23:54:07.611+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:18: UserWarning: Distutils was imported before Setuptools, but importing Setuptools also replaces the `distutils` module in `sys.modules`. This may lead to undesirable behaviors or errors. To avoid these issues, avoid using distutils directly, ensure that setuptools is installed in the traditional way (e.g. not an editable install), and/or make sure that setuptools is always imported before distutils.
+[2023-12-27T23:54:07.612+0500] {subprocess.py:93} INFO -   warnings.warn(
+[2023-12-27T23:54:07.612+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:33: UserWarning: Setuptools is replacing distutils.
+[2023-12-27T23:54:07.612+0500] {subprocess.py:93} INFO -   warnings.warn("Setuptools is replacing distutils.")
+[2023-12-27T23:54:07.636+0500] {subprocess.py:93} INFO - Registered model 'clf' already exists. Creating a new version of this model...
+[2023-12-27T23:54:07.694+0500] {subprocess.py:93} INFO - Created version '37' of model 'clf'.
+[2023-12-27T23:54:12.610+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:18: UserWarning: Distutils was imported before Setuptools, but importing Setuptools also replaces the `distutils` module in `sys.modules`. This may lead to undesirable behaviors or errors. To avoid these issues, avoid using distutils directly, ensure that setuptools is installed in the traditional way (e.g. not an editable install), and/or make sure that setuptools is always imported before distutils.
+[2023-12-27T23:54:12.610+0500] {subprocess.py:93} INFO -   warnings.warn(
+[2023-12-27T23:54:12.610+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:33: UserWarning: Setuptools is replacing distutils.
+[2023-12-27T23:54:12.610+0500] {subprocess.py:93} INFO -   warnings.warn("Setuptools is replacing distutils.")
+[2023-12-27T23:54:12.632+0500] {subprocess.py:93} INFO - Registered model 'clf' already exists. Creating a new version of this model...
+[2023-12-27T23:54:12.760+0500] {subprocess.py:93} INFO - Created version '38' of model 'clf'.
+[2023-12-27T23:54:17.100+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:18: UserWarning: Distutils was imported before Setuptools, but importing Setuptools also replaces the `distutils` module in `sys.modules`. This may lead to undesirable behaviors or errors. To avoid these issues, avoid using distutils directly, ensure that setuptools is installed in the traditional way (e.g. not an editable install), and/or make sure that setuptools is always imported before distutils.
+[2023-12-27T23:54:17.100+0500] {subprocess.py:93} INFO -   warnings.warn(
+[2023-12-27T23:54:17.100+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:33: UserWarning: Setuptools is replacing distutils.
+[2023-12-27T23:54:17.100+0500] {subprocess.py:93} INFO -   warnings.warn("Setuptools is replacing distutils.")
+[2023-12-27T23:54:17.129+0500] {subprocess.py:93} INFO - Registered model 'clf' already exists. Creating a new version of this model...
+[2023-12-27T23:54:17.220+0500] {subprocess.py:93} INFO - Created version '39' of model 'clf'.
+[2023-12-27T23:54:21.511+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:18: UserWarning: Distutils was imported before Setuptools, but importing Setuptools also replaces the `distutils` module in `sys.modules`. This may lead to undesirable behaviors or errors. To avoid these issues, avoid using distutils directly, ensure that setuptools is installed in the traditional way (e.g. not an editable install), and/or make sure that setuptools is always imported before distutils.
+[2023-12-27T23:54:21.511+0500] {subprocess.py:93} INFO -   warnings.warn(
+[2023-12-27T23:54:21.511+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:33: UserWarning: Setuptools is replacing distutils.
+[2023-12-27T23:54:21.511+0500] {subprocess.py:93} INFO -   warnings.warn("Setuptools is replacing distutils.")
+[2023-12-27T23:54:21.533+0500] {subprocess.py:93} INFO - Registered model 'clf' already exists. Creating a new version of this model...
+[2023-12-27T23:54:21.602+0500] {subprocess.py:93} INFO - Created version '40' of model 'clf'.
+[2023-12-27T23:54:25.570+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:18: UserWarning: Distutils was imported before Setuptools, but importing Setuptools also replaces the `distutils` module in `sys.modules`. This may lead to undesirable behaviors or errors. To avoid these issues, avoid using distutils directly, ensure that setuptools is installed in the traditional way (e.g. not an editable install), and/or make sure that setuptools is always imported before distutils.
+[2023-12-27T23:54:25.570+0500] {subprocess.py:93} INFO -   warnings.warn(
+[2023-12-27T23:54:25.570+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:33: UserWarning: Setuptools is replacing distutils.
+[2023-12-27T23:54:25.570+0500] {subprocess.py:93} INFO -   warnings.warn("Setuptools is replacing distutils.")
+[2023-12-27T23:54:25.579+0500] {subprocess.py:93} INFO - Registered model 'clf' already exists. Creating a new version of this model...
+[2023-12-27T23:54:25.631+0500] {subprocess.py:93} INFO - Created version '41' of model 'clf'.
+[2023-12-27T23:54:27.819+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:18: UserWarning: Distutils was imported before Setuptools, but importing Setuptools also replaces the `distutils` module in `sys.modules`. This may lead to undesirable behaviors or errors. To avoid these issues, avoid using distutils directly, ensure that setuptools is installed in the traditional way (e.g. not an editable install), and/or make sure that setuptools is always imported before distutils.
+[2023-12-27T23:54:27.820+0500] {subprocess.py:93} INFO -   warnings.warn(
+[2023-12-27T23:54:27.820+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:33: UserWarning: Setuptools is replacing distutils.
+[2023-12-27T23:54:27.820+0500] {subprocess.py:93} INFO -   warnings.warn("Setuptools is replacing distutils.")
+[2023-12-27T23:54:27.829+0500] {subprocess.py:93} INFO - Registered model 'clf' already exists. Creating a new version of this model...
+[2023-12-27T23:54:27.872+0500] {subprocess.py:93} INFO - Created version '42' of model 'clf'.
+[2023-12-27T23:54:32.510+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:18: UserWarning: Distutils was imported before Setuptools, but importing Setuptools also replaces the `distutils` module in `sys.modules`. This may lead to undesirable behaviors or errors. To avoid these issues, avoid using distutils directly, ensure that setuptools is installed in the traditional way (e.g. not an editable install), and/or make sure that setuptools is always imported before distutils.
+[2023-12-27T23:54:32.510+0500] {subprocess.py:93} INFO -   warnings.warn(
+[2023-12-27T23:54:32.510+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:33: UserWarning: Setuptools is replacing distutils.
+[2023-12-27T23:54:32.510+0500] {subprocess.py:93} INFO -   warnings.warn("Setuptools is replacing distutils.")
+[2023-12-27T23:54:32.534+0500] {subprocess.py:93} INFO - Registered model 'clf' already exists. Creating a new version of this model...
+[2023-12-27T23:54:32.641+0500] {subprocess.py:93} INFO - Created version '43' of model 'clf'.
+[2023-12-27T23:54:35.559+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:18: UserWarning: Distutils was imported before Setuptools, but importing Setuptools also replaces the `distutils` module in `sys.modules`. This may lead to undesirable behaviors or errors. To avoid these issues, avoid using distutils directly, ensure that setuptools is installed in the traditional way (e.g. not an editable install), and/or make sure that setuptools is always imported before distutils.
+[2023-12-27T23:54:35.559+0500] {subprocess.py:93} INFO -   warnings.warn(
+[2023-12-27T23:54:35.561+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:33: UserWarning: Setuptools is replacing distutils.
+[2023-12-27T23:54:35.561+0500] {subprocess.py:93} INFO -   warnings.warn("Setuptools is replacing distutils.")
+[2023-12-27T23:54:35.576+0500] {subprocess.py:93} INFO - Registered model 'clf' already exists. Creating a new version of this model...
+[2023-12-27T23:54:35.657+0500] {subprocess.py:93} INFO - Created version '44' of model 'clf'.
+[2023-12-27T23:54:40.041+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:18: UserWarning: Distutils was imported before Setuptools, but importing Setuptools also replaces the `distutils` module in `sys.modules`. This may lead to undesirable behaviors or errors. To avoid these issues, avoid using distutils directly, ensure that setuptools is installed in the traditional way (e.g. not an editable install), and/or make sure that setuptools is always imported before distutils.
+[2023-12-27T23:54:40.041+0500] {subprocess.py:93} INFO -   warnings.warn(
+[2023-12-27T23:54:40.041+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:33: UserWarning: Setuptools is replacing distutils.
+[2023-12-27T23:54:40.041+0500] {subprocess.py:93} INFO -   warnings.warn("Setuptools is replacing distutils.")
+[2023-12-27T23:54:40.071+0500] {subprocess.py:93} INFO - Registered model 'clf' already exists. Creating a new version of this model...
+[2023-12-27T23:54:40.165+0500] {subprocess.py:93} INFO - Created version '45' of model 'clf'.
+[2023-12-27T23:54:40.371+0500] {subprocess.py:93} INFO - <class 'pandas.core.frame.DataFrame'>
+[2023-12-27T23:54:40.371+0500] {subprocess.py:93} INFO - RangeIndex: 704 entries, 0 to 703
+[2023-12-27T23:54:40.371+0500] {subprocess.py:93} INFO - Columns: 220 entries, Price (in USD) to i8
+[2023-12-27T23:54:40.372+0500] {subprocess.py:93} INFO - dtypes: bool(212), float64(2), int64(6)
+[2023-12-27T23:54:40.372+0500] {subprocess.py:93} INFO - memory usage: 189.9 KB
+[2023-12-27T23:54:40.372+0500] {subprocess.py:93} INFO -      Price (in USD)  Unnamed: 0.2  Unnamed: 0.1  ...  Z4 M40i  Z4 Roadster     i8
+[2023-12-27T23:54:40.372+0500] {subprocess.py:93} INFO - 0             67600           912           912  ...    False        False  False
+[2023-12-27T23:54:40.372+0500] {subprocess.py:93} INFO - 1             81250           843           843  ...    False        False  False
+[2023-12-27T23:54:40.372+0500] {subprocess.py:93} INFO - 2             69000           293           293  ...    False        False  False
+[2023-12-27T23:54:40.372+0500] {subprocess.py:93} INFO - 3            180000           554           554  ...    False        False  False
+[2023-12-27T23:54:40.372+0500] {subprocess.py:93} INFO - 4             64695           581           581  ...    False        False  False
+[2023-12-27T23:54:40.372+0500] {subprocess.py:93} INFO - ..              ...           ...           ...  ...      ...          ...    ...
+[2023-12-27T23:54:40.372+0500] {subprocess.py:93} INFO - 298          250000           951           951  ...    False        False  False
+[2023-12-27T23:54:40.372+0500] {subprocess.py:93} INFO - 299         2600000           523           523  ...    False        False  False
+[2023-12-27T23:54:40.372+0500] {subprocess.py:93} INFO - 300          103500            61            61  ...    False        False  False
+[2023-12-27T23:54:40.372+0500] {subprocess.py:93} INFO - 301          157500           355           355  ...    False        False  False
+[2023-12-27T23:54:40.372+0500] {subprocess.py:93} INFO - 302          200000           335           335  ...    False        False  False
+[2023-12-27T23:54:40.373+0500] {subprocess.py:93} INFO - 
+[2023-12-27T23:54:40.374+0500] {subprocess.py:93} INFO - [303 rows x 220 columns]
+[2023-12-27T23:54:41.308+0500] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-12-27T23:54:41.385+0500] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=KOH, task_id=evaluate, execution_date=20231227T185004, start_date=20231227T185247, end_date=20231227T185441
+[2023-12-27T23:54:41.482+0500] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-27T23:54:41.506+0500] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

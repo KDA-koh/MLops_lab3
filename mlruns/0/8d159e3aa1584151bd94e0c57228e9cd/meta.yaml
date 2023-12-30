@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/8d159e3aa1584151bd94e0c57228e9cd/artifacts
+end_time: 1703704849626
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8d159e3aa1584151bd94e0c57228e9cd
+run_name: valuable-cow-145
+run_uuid: 8d159e3aa1584151bd94e0c57228e9cd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703704847877
+status: 3
+tags: []
+user_id: kda

@@ -1,0 +1,31 @@
+[2023-12-27T22:37:05.065+0500] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: KOH.evaluate manual__2023-12-27T17:35:52.347210+00:00 [queued]>
+[2023-12-27T22:37:05.078+0500] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: KOH.evaluate manual__2023-12-27T17:35:52.347210+00:00 [queued]>
+[2023-12-27T22:37:05.078+0500] {taskinstance.py:1361} INFO - Starting attempt 1 of 2
+[2023-12-27T22:37:05.233+0500] {taskinstance.py:1382} INFO - Executing <Task(BashOperator): evaluate> on 2023-12-27 17:35:52.347210+00:00
+[2023-12-27T22:37:05.241+0500] {standard_task_runner.py:57} INFO - Started process 5645 to run task
+[2023-12-27T22:37:05.253+0500] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'KOH', 'evaluate', 'manual__2023-12-27T17:35:52.347210+00:00', '--job-id', '163', '--raw', '--subdir', 'DAGS_FOLDER/text.py', '--cfg-path', '/tmp/tmpsda47aln']
+[2023-12-27T22:37:05.259+0500] {standard_task_runner.py:85} INFO - Job 163: Subtask evaluate
+[2023-12-27T22:37:05.436+0500] {task_command.py:416} INFO - Running <TaskInstance: KOH.evaluate manual__2023-12-27T17:35:52.347210+00:00 [running]> on host vm2.myguest.virtualbox.org
+[2023-12-27T22:37:05.690+0500] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Admin' AIRFLOW_CTX_DAG_ID='KOH' AIRFLOW_CTX_TASK_ID='evaluate' AIRFLOW_CTX_EXECUTION_DATE='2023-12-27T17:35:52.347210+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-12-27T17:35:52.347210+00:00'
+[2023-12-27T22:37:05.696+0500] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2023-12-27T22:37:05.698+0500] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'cd /home/kda/ML_lab3/MLops_lab3/ && python /home/kda/ML_lab3/MLops_lab3/scripts/evaluate.py']
+[2023-12-27T22:37:05.722+0500] {subprocess.py:86} INFO - Output:
+[2023-12-27T22:37:09.203+0500] {subprocess.py:93} INFO - <class 'pandas.core.frame.DataFrame'>
+[2023-12-27T22:37:09.204+0500] {subprocess.py:93} INFO - RangeIndex: 704 entries, 0 to 703
+[2023-12-27T22:37:09.204+0500] {subprocess.py:93} INFO - Columns: 220 entries, Price (in USD) to i8
+[2023-12-27T22:37:09.204+0500] {subprocess.py:93} INFO - dtypes: bool(212), float64(2), int64(6)
+[2023-12-27T22:37:09.204+0500] {subprocess.py:93} INFO - memory usage: 189.9 KB
+[2023-12-27T22:37:09.204+0500] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2023-12-27T22:37:09.204+0500] {subprocess.py:93} INFO -   File "/home/kda/ML_lab3/MLops_lab3/scripts/evaluate.py", line 81, in <module>
+[2023-12-27T22:37:09.204+0500] {subprocess.py:93} INFO -     pickle.dump(clf,fd)
+[2023-12-27T22:37:09.204+0500] {subprocess.py:93} INFO - NameError: name 'clf' is not defined
+[2023-12-27T22:37:10.004+0500] {subprocess.py:97} INFO - Command exited with return code 1
+[2023-12-27T22:37:10.025+0500] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/airflow/operators/bash.py", line 210, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2023-12-27T22:37:10.031+0500] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=KOH, task_id=evaluate, execution_date=20231227T173552, start_date=20231227T173705, end_date=20231227T173710
+[2023-12-27T22:37:10.075+0500] {standard_task_runner.py:104} ERROR - Failed to execute job 163 for task evaluate (Bash command failed. The command returned a non-zero exit code 1.; 5645)
+[2023-12-27T22:37:10.098+0500] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-12-27T22:37:10.121+0500] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

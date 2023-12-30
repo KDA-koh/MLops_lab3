@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/d6393ff639b5427b8a40f86609db71c9/artifacts
+end_time: 1703703131327
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d6393ff639b5427b8a40f86609db71c9
+run_name: burly-tern-535
+run_uuid: d6393ff639b5427b8a40f86609db71c9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703703127485
+status: 3
+tags: []
+user_id: kda

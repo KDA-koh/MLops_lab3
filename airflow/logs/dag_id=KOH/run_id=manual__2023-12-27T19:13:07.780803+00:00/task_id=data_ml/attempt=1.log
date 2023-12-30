@@ -1,0 +1,24 @@
+[2023-12-28T00:13:15.789+0500] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: KOH.data_ml manual__2023-12-27T19:13:07.780803+00:00 [queued]>
+[2023-12-28T00:13:15.800+0500] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: KOH.data_ml manual__2023-12-27T19:13:07.780803+00:00 [queued]>
+[2023-12-28T00:13:15.800+0500] {taskinstance.py:1361} INFO - Starting attempt 1 of 2
+[2023-12-28T00:13:15.850+0500] {taskinstance.py:1382} INFO - Executing <Task(BashOperator): data_ml> on 2023-12-27 19:13:07.780803+00:00
+[2023-12-28T00:13:15.856+0500] {standard_task_runner.py:57} INFO - Started process 8113 to run task
+[2023-12-28T00:13:15.860+0500] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'KOH', 'data_ml', 'manual__2023-12-27T19:13:07.780803+00:00', '--job-id', '232', '--raw', '--subdir', 'DAGS_FOLDER/text.py', '--cfg-path', '/tmp/tmp5b2ycgit']
+[2023-12-28T00:13:15.864+0500] {standard_task_runner.py:85} INFO - Job 232: Subtask data_ml
+[2023-12-28T00:13:15.973+0500] {task_command.py:416} INFO - Running <TaskInstance: KOH.data_ml manual__2023-12-27T19:13:07.780803+00:00 [running]> on host vm2.myguest.virtualbox.org
+[2023-12-28T00:13:16.084+0500] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Admin' AIRFLOW_CTX_DAG_ID='KOH' AIRFLOW_CTX_TASK_ID='data_ml' AIRFLOW_CTX_EXECUTION_DATE='2023-12-27T19:13:07.780803+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-12-27T19:13:07.780803+00:00'
+[2023-12-28T00:13:16.085+0500] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2023-12-28T00:13:16.085+0500] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'cd /home/kda/ML_lab3/MLops_lab3/ && python /home/kda/ML_lab3/MLops_lab3/scripts/model_learn.py']
+[2023-12-28T00:13:16.095+0500] {subprocess.py:86} INFO - Output:
+[2023-12-28T00:13:23.441+0500] {subprocess.py:93} INFO - Registered model 'lr' already exists. Creating a new version of this model...
+[2023-12-28T00:13:23.584+0500] {subprocess.py:93} INFO - 2023/12/28 00:13:23 INFO mlflow.store.model_registry.abstract_store: Waiting up to 300 seconds for model version to finish creation. Model name: lr, version 27
+[2023-12-28T00:13:23.584+0500] {subprocess.py:93} INFO - Created version '27' of model 'lr'.
+[2023-12-28T00:13:23.683+0500] {subprocess.py:93} INFO - <class 'pandas.core.frame.DataFrame'>
+[2023-12-28T00:13:23.683+0500] {subprocess.py:93} INFO - RangeIndex: 704 entries, 0 to 703
+[2023-12-28T00:13:23.683+0500] {subprocess.py:93} INFO - Columns: 220 entries, Price (in USD) to i8
+[2023-12-28T00:13:23.683+0500] {subprocess.py:93} INFO - dtypes: bool(212), float64(2), int64(6)
+[2023-12-28T00:13:23.683+0500] {subprocess.py:93} INFO - memory usage: 189.9 KB
+[2023-12-28T00:13:24.285+0500] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-12-28T00:13:24.343+0500] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=KOH, task_id=data_ml, execution_date=20231227T191307, start_date=20231227T191315, end_date=20231227T191324
+[2023-12-28T00:13:24.388+0500] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-28T00:13:24.402+0500] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/207a46c2c50b4aa791dcdb31cf7a04d0/artifacts
+end_time: 1703704058807
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 207a46c2c50b4aa791dcdb31cf7a04d0
+run_name: painted-hawk-783
+run_uuid: 207a46c2c50b4aa791dcdb31cf7a04d0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703704057302
+status: 3
+tags: []
+user_id: kda

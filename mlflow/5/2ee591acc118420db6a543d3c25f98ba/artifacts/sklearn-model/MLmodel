@@ -1,0 +1,140 @@
+artifact_path: sklearn-model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.12
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.3.2
+mlflow_version: 2.9.1
+model_size_bytes: 770814
+model_uuid: df167f06266c4a9a837eb7ac1359b8be
+run_id: 2ee591acc118420db6a543d3c25f98ba
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  type: dataframe
+signature:
+  inputs: '[{"type": "long", "name": "Unnamed: 0.2"}, {"type": "long", "name": "Unnamed:
+    0.1"}, {"type": "long", "name": "Unnamed: 0"}, {"type": "double", "name": "Year"},
+    {"type": "long", "name": "Engine Size (L)"}, {"type": "long", "name": "Horsepower"},
+    {"type": "double", "name": "0-60 MPH Time (seconds)"}, {"type": "boolean", "name":
+    "Alfa Romeo"}, {"type": "boolean", "name": "Alpine"}, {"type": "boolean", "name":
+    "Ariel"}, {"type": "boolean", "name": "Aston Martin"}, {"type": "boolean", "name":
+    "Audi"}, {"type": "boolean", "name": "BMW"}, {"type": "boolean", "name": "Bentley"},
+    {"type": "boolean", "name": "Bugatti"}, {"type": "boolean", "name": "Chevrolet"},
+    {"type": "boolean", "name": "Dodge"}, {"type": "boolean", "name": "Ferrari"},
+    {"type": "boolean", "name": "Ford"}, {"type": "boolean", "name": "Jaguar"}, {"type":
+    "boolean", "name": "Kia"}, {"type": "boolean", "name": "Koenigsegg"}, {"type":
+    "boolean", "name": "Lamborghini"}, {"type": "boolean", "name": "Lexus"}, {"type":
+    "boolean", "name": "Lotus"}, {"type": "boolean", "name": "Maserati"}, {"type":
+    "boolean", "name": "Mazda"}, {"type": "boolean", "name": "McLaren"}, {"type":
+    "boolean", "name": "Mercedes-AMG"}, {"type": "boolean", "name": "Mercedes-Benz"},
+    {"type": "boolean", "name": "Nissan"}, {"type": "boolean", "name": "Pagani"},
+    {"type": "boolean", "name": "Pininfarina"}, {"type": "boolean", "name": "Polestar"},
+    {"type": "boolean", "name": "Porsche"}, {"type": "boolean", "name": "Rimac"},
+    {"type": "boolean", "name": "Rolls-Royce"}, {"type": "boolean", "name": "Shelby"},
+    {"type": "boolean", "name": "Subaru"}, {"type": "boolean", "name": "TVR"}, {"type":
+    "boolean", "name": "Tesla"}, {"type": "boolean", "name": "Toyota"}, {"type": "boolean",
+    "name": "Ultima"}, {"type": "boolean", "name": "W Motors"}, {"type": "boolean",
+    "name": "370Z"}, {"type": "boolean", "name": "370Z Coupe"}, {"type": "boolean",
+    "name": "370Z Nismo"}, {"type": "boolean", "name": "400Z"}, {"type": "boolean",
+    "name": "488 GTB"}, {"type": "boolean", "name": "4C"}, {"type": "boolean", "name":
+    "4C Spider"}, {"type": "boolean", "name": "570S"}, {"type": "boolean", "name":
+    "570S Spider"}, {"type": "boolean", "name": "600LT"}, {"type": "boolean", "name":
+    "600LT Spider"}, {"type": "boolean", "name": "718 Boxster"}, {"type": "boolean",
+    "name": "718 Cayman"}, {"type": "boolean", "name": "718 Cayman GT4"}, {"type":
+    "boolean", "name": "720S"}, {"type": "boolean", "name": "765LT"}, {"type": "boolean",
+    "name": "812 Superfast"}, {"type": "boolean", "name": "911"}, {"type": "boolean",
+    "name": "911 Turbo S"}, {"type": "boolean", "name": "918 Spyder"}, {"type": "boolean",
+    "name": "A110"}, {"type": "boolean", "name": "AMG A45"}, {"type": "boolean", "name":
+    "AMG C 63"}, {"type": "boolean", "name": "AMG C 63 S"}, {"type": "boolean", "name":
+    "AMG C43 Coupe"}, {"type": "boolean", "name": "AMG C63"}, {"type": "boolean",
+    "name": "AMG GT"}, {"type": "boolean", "name": "AMG GT 4-Door Coupe"}, {"type":
+    "boolean", "name": "AMG GT 63 S"}, {"type": "boolean", "name": "AMG GT Black Series"},
+    {"type": "boolean", "name": "AMG GT R"}, {"type": "boolean", "name": "Artura"},
+    {"type": "boolean", "name": "Atom"}, {"type": "boolean", "name": "Aventador"},
+    {"type": "boolean", "name": "Aventador S"}, {"type": "boolean", "name": "Aventador
+    SVJ"}, {"type": "boolean", "name": "Battista"}, {"type": "boolean", "name": "Boxster"},
+    {"type": "boolean", "name": "C 63 AMG"}, {"type": "boolean", "name": "C 63 S"},
+    {"type": "boolean", "name": "C 63 S Coupe"}, {"type": "boolean", "name": "C63
+    AMG"}, {"type": "boolean", "name": "C63 S"}, {"type": "boolean", "name": "C63
+    S AMG"}, {"type": "boolean", "name": "C63 S Coupe"}, {"type": "boolean", "name":
+    "CLS63 AMG"}, {"type": "boolean", "name": "C_Two"}, {"type": "boolean", "name":
+    "Camaro"}, {"type": "boolean", "name": "Camaro SS"}, {"type": "boolean", "name":
+    "Camaro SS 1LE"}, {"type": "boolean", "name": "Camaro SS Convertible"}, {"type":
+    "boolean", "name": "Camaro ZL1"}, {"type": "boolean", "name": "Cayman"}, {"type":
+    "boolean", "name": "Cayman GT4"}, {"type": "boolean", "name": "Challenger"}, {"type":
+    "boolean", "name": "Challenger Hellcat"}, {"type": "boolean", "name": "Challenger
+    Hellcat Redeye"}, {"type": "boolean", "name": "Challenger R/T"}, {"type": "boolean",
+    "name": "Challenger SRT Hellcat"}, {"type": "boolean", "name": "Challenger SRT
+    Hellcat Redeye"}, {"type": "boolean", "name": "Charger"}, {"type": "boolean",
+    "name": "Charger Hellcat"}, {"type": "boolean", "name": "Charger SRT Hellcat"},
+    {"type": "boolean", "name": "Chiron"}, {"type": "boolean", "name": "Chiron Pur
+    Sport"}, {"type": "boolean", "name": "Chiron Super Sport 300+"}, {"type": "boolean",
+    "name": "Cobra"}, {"type": "boolean", "name": "Continental GT"}, {"type": "boolean",
+    "name": "Continental GT Speed"}, {"type": "boolean", "name": "Corvette"}, {"type":
+    "boolean", "name": "Corvette Stingray"}, {"type": "boolean", "name": "Corvette
+    Z06"}, {"type": "boolean", "name": "DB11"}, {"type": "boolean", "name": "DBS Superleggera"},
+    {"type": "boolean", "name": "Dawn"}, {"type": "boolean", "name": "Evija"}, {"type":
+    "boolean", "name": "Evora"}, {"type": "boolean", "name": "Evora GT"}, {"type":
+    "boolean", "name": "F-Type"}, {"type": "boolean", "name": "F-Type R"}, {"type":
+    "boolean", "name": "F8 Spider"}, {"type": "boolean", "name": "F8 Tributo"}, {"type":
+    "boolean", "name": "Fenyr SuperSport"}, {"type": "boolean", "name": "Fenyr Supersport"},
+    {"type": "boolean", "name": "GR Supra"}, {"type": "boolean", "name": "GT"}, {"type":
+    "boolean", "name": "GT 63"}, {"type": "boolean", "name": "GT 63 S"}, {"type":
+    "boolean", "name": "GT Black Series"}, {"type": "boolean", "name": "GT-R Nismo"},
+    {"type": "boolean", "name": "Ghost"}, {"type": "boolean", "name": "Giulia Quadrifoglio"},
+    {"type": "boolean", "name": "GranTurismo"}, {"type": "boolean", "name": "Griffith"},
+    {"type": "boolean", "name": "Huayra"}, {"type": "boolean", "name": "Huayra BC"},
+    {"type": "boolean", "name": "Huayra Roadster BC"}, {"type": "boolean", "name":
+    "Huracan"}, {"type": "boolean", "name": "Jesko"}, {"type": "boolean", "name":
+    "Jesko Absolut"}, {"type": "boolean", "name": "LC"}, {"type": "boolean", "name":
+    "LC 500"}, {"type": "boolean", "name": "Lykan Hypersport"}, {"type": "boolean",
+    "name": "M2"}, {"type": "boolean", "name": "M2 CS"}, {"type": "boolean", "name":
+    "M2 Competition"}, {"type": "boolean", "name": "M4"}, {"type": "boolean", "name":
+    "M4 Competition"}, {"type": "boolean", "name": "M4 Coupe"}, {"type": "boolean",
+    "name": "M5"}, {"type": "boolean", "name": "M5 Competition"}, {"type": "boolean",
+    "name": "M8"}, {"type": "boolean", "name": "MC20"}, {"type": "boolean", "name":
+    "MX-5 Miata"}, {"type": "boolean", "name": "Model S"}, {"type": "boolean", "name":
+    "Model S Plaid"}, {"type": "boolean", "name": "Mustang"}, {"type": "boolean",
+    "name": "Mustang GT"}, {"type": "boolean", "name": "Mustang Mach 1"}, {"type":
+    "boolean", "name": "Mustang Shelby GT500"}, {"type": "boolean", "name": "NSX"},
+    {"type": "boolean", "name": "Nevera"}, {"type": "boolean", "name": "Panamera"},
+    {"type": "boolean", "name": "Panamera GTS"}, {"type": "boolean", "name": "Panamera
+    Turbo"}, {"type": "boolean", "name": "Panamera Turbo S"}, {"type": "boolean",
+    "name": "Panamera Turbo S E-Hybrid"}, {"type": "boolean", "name": "Portofino"},
+    {"type": "boolean", "name": "Portofino M"}, {"type": "boolean", "name": "R8"},
+    {"type": "boolean", "name": "R8 Spyder"}, {"type": "boolean", "name": "RS"}, {"type":
+    "boolean", "name": "RS 3"}, {"type": "boolean", "name": "RS 5"}, {"type": "boolean",
+    "name": "RS 5 Coupe"}, {"type": "boolean", "name": "RS 6"}, {"type": "boolean",
+    "name": "RS 6 Avant"}, {"type": "boolean", "name": "RS 7"}, {"type": "boolean",
+    "name": "RS 7 Sportback"}, {"type": "boolean", "name": "RS3"}, {"type": "boolean",
+    "name": "RS5"}, {"type": "boolean", "name": "RS5 Coupe"}, {"type": "boolean",
+    "name": "RS6"}, {"type": "boolean", "name": "RS6 Avant"}, {"type": "boolean",
+    "name": "RS7"}, {"type": "boolean", "name": "RS7 Sportback"}, {"type": "boolean",
+    "name": "Roadster"}, {"type": "boolean", "name": "Roma"}, {"type": "boolean",
+    "name": "S5"}, {"type": "boolean", "name": "S63 AMG"}, {"type": "boolean", "name":
+    "SF90 Stradale"}, {"type": "boolean", "name": "SL"}, {"type": "boolean", "name":
+    "SL 63 AMG"}, {"type": "boolean", "name": "SLC 43"}, {"type": "boolean", "name":
+    "SLS AMG"}, {"type": "boolean", "name": "SLS AMG Black Series"}, {"type": "boolean",
+    "name": "Senna"}, {"type": "boolean", "name": "Si\u00e1n"}, {"type": "boolean",
+    "name": "Speedtail"}, {"type": "boolean", "name": "Stinger"}, {"type": "boolean",
+    "name": "Supra"}, {"type": "boolean", "name": "TT RS"}, {"type": "boolean", "name":
+    "TT RS Coupe"}, {"type": "boolean", "name": "Taycan"}, {"type": "boolean", "name":
+    "Taycan 4S"}, {"type": "boolean", "name": "Taycan Turbo S"}, {"type": "boolean",
+    "name": "Urus"}, {"type": "boolean", "name": "Vantage"}, {"type": "boolean", "name":
+    "Viper"}, {"type": "boolean", "name": "Viper ACR"}, {"type": "boolean", "name":
+    "WRX STI"}, {"type": "boolean", "name": "Wraith"}, {"type": "boolean", "name":
+    "Z4 M40i"}, {"type": "boolean", "name": "Z4 Roadster"}, {"type": "boolean", "name":
+    "i8"}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+utc_time_created: '2023-12-30 12:56:21.720307'

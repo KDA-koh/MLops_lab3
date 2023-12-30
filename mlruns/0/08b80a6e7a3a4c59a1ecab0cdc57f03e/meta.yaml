@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/08b80a6e7a3a4c59a1ecab0cdc57f03e/artifacts
+end_time: 1703703342870
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 08b80a6e7a3a4c59a1ecab0cdc57f03e
+run_name: traveling-stork-115
+run_uuid: 08b80a6e7a3a4c59a1ecab0cdc57f03e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703703340538
+status: 3
+tags: []
+user_id: kda

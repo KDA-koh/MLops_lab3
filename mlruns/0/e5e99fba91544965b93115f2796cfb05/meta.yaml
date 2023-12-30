@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/e5e99fba91544965b93115f2796cfb05/artifacts
+end_time: 1703704740534
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e5e99fba91544965b93115f2796cfb05
+run_name: bright-dove-215
+run_uuid: e5e99fba91544965b93115f2796cfb05
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703704738704
+status: 3
+tags: []
+user_id: kda

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/d1a23d8e529e4535b5c180d9cc5ab339/artifacts
+end_time: 1703704836104
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d1a23d8e529e4535b5c180d9cc5ab339
+run_name: adaptable-wasp-130
+run_uuid: d1a23d8e529e4535b5c180d9cc5ab339
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703704834464
+status: 3
+tags: []
+user_id: kda

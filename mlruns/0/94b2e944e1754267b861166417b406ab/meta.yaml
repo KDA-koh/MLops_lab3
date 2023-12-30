@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/94b2e944e1754267b861166417b406ab/artifacts
+end_time: 1703704865526
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 94b2e944e1754267b861166417b406ab
+run_name: defiant-doe-274
+run_uuid: 94b2e944e1754267b861166417b406ab
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703704863814
+status: 3
+tags: []
+user_id: kda

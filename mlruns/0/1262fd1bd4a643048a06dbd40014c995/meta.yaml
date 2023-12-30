@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/1262fd1bd4a643048a06dbd40014c995/artifacts
+end_time: 1703704839436
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1262fd1bd4a643048a06dbd40014c995
+run_name: fearless-wasp-704
+run_uuid: 1262fd1bd4a643048a06dbd40014c995
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703704837794
+status: 3
+tags: []
+user_id: kda

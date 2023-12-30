@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/b98b26be0bde4eb28a49aadd1103d694/artifacts
+end_time: 1703703361471
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b98b26be0bde4eb28a49aadd1103d694
+run_name: upset-koi-613
+run_uuid: b98b26be0bde4eb28a49aadd1103d694
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703703359127
+status: 3
+tags: []
+user_id: kda

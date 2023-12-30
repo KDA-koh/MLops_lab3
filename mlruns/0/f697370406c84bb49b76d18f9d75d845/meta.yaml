@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/f697370406c84bb49b76d18f9d75d845/artifacts
+end_time: 1703704537301
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f697370406c84bb49b76d18f9d75d845
+run_name: crawling-bird-428
+run_uuid: f697370406c84bb49b76d18f9d75d845
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703704535544
+status: 3
+tags: []
+user_id: kda

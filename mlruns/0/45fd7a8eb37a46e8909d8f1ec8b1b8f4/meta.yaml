@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/45fd7a8eb37a46e8909d8f1ec8b1b8f4/artifacts
+end_time: 1703704842833
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 45fd7a8eb37a46e8909d8f1ec8b1b8f4
+run_name: powerful-colt-864
+run_uuid: 45fd7a8eb37a46e8909d8f1ec8b1b8f4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703704841124
+status: 3
+tags: []
+user_id: kda

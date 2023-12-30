@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/114b13f042804f3f802c7b0f58cd1960/artifacts
+end_time: 1703703356564
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 114b13f042804f3f802c7b0f58cd1960
+run_name: auspicious-tern-574
+run_uuid: 114b13f042804f3f802c7b0f58cd1960
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703703354523
+status: 3
+tags: []
+user_id: kda

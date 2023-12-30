@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/617e6c6b8c064a769a1ac1f753b9f094/artifacts
+end_time: 1703704781376
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 617e6c6b8c064a769a1ac1f753b9f094
+run_name: clean-crane-323
+run_uuid: 617e6c6b8c064a769a1ac1f753b9f094
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703704779272
+status: 3
+tags: []
+user_id: kda

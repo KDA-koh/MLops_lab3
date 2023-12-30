@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/d0335ed8418640a591b62c05d5b8bba2/artifacts
+end_time: 1703704760291
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d0335ed8418640a591b62c05d5b8bba2
+run_name: bittersweet-dog-505
+run_uuid: d0335ed8418640a591b62c05d5b8bba2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703704758507
+status: 3
+tags: []
+user_id: kda

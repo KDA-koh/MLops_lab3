@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/f3291ce03fff4a1f96bf208f87be3952/artifacts
+end_time: 1703704052509
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f3291ce03fff4a1f96bf208f87be3952
+run_name: receptive-goose-3
+run_uuid: f3291ce03fff4a1f96bf208f87be3952
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703704050941
+status: 3
+tags: []
+user_id: kda

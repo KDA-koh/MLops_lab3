@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/8c7495b45a60466b9ec07e9020a3e662/artifacts
+end_time: 1703704745621
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8c7495b45a60466b9ec07e9020a3e662
+run_name: delicate-finch-748
+run_uuid: 8c7495b45a60466b9ec07e9020a3e662
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703704744020
+status: 3
+tags: []
+user_id: kda

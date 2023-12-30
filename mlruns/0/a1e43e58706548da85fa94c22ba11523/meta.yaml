@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/a1e43e58706548da85fa94c22ba11523/artifacts
+end_time: 1703703101105
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a1e43e58706548da85fa94c22ba11523
+run_name: resilient-vole-343
+run_uuid: a1e43e58706548da85fa94c22ba11523
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703703096412
+status: 3
+tags: []
+user_id: kda

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/313d5483aaed41139c52c4cd2b019e15/artifacts
+end_time: 1703702901218
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 313d5483aaed41139c52c4cd2b019e15
+run_name: enchanting-snipe-546
+run_uuid: 313d5483aaed41139c52c4cd2b019e15
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703702901196
+status: 4
+tags: []
+user_id: kda

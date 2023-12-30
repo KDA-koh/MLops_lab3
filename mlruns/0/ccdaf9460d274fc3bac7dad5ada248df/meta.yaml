@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/ccdaf9460d274fc3bac7dad5ada248df/artifacts
+end_time: 1703703071335
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ccdaf9460d274fc3bac7dad5ada248df
+run_name: monumental-kite-137
+run_uuid: ccdaf9460d274fc3bac7dad5ada248df
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703703066577
+status: 3
+tags: []
+user_id: kda

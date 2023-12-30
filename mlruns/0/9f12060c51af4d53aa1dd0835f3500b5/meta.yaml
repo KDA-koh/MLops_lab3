@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/9f12060c51af4d53aa1dd0835f3500b5/artifacts
+end_time: 1703703247703
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9f12060c51af4d53aa1dd0835f3500b5
+run_name: masked-gnu-854
+run_uuid: 9f12060c51af4d53aa1dd0835f3500b5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703703243066
+status: 3
+tags: []
+user_id: kda

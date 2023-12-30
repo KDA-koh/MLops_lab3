@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/5acbde5b7c1c43e688da29e88ffbc879/artifacts
+end_time: 1703703237892
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5acbde5b7c1c43e688da29e88ffbc879
+run_name: unique-mare-154
+run_uuid: 5acbde5b7c1c43e688da29e88ffbc879
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703703232817
+status: 3
+tags: []
+user_id: kda

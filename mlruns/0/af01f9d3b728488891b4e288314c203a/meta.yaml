@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/af01f9d3b728488891b4e288314c203a/artifacts
+end_time: 1703704423088
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: af01f9d3b728488891b4e288314c203a
+run_name: dazzling-grub-339
+run_uuid: af01f9d3b728488891b4e288314c203a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703704423078
+status: 4
+tags: []
+user_id: kda

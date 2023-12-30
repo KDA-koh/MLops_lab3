@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/de250ae5d7f247f6b4d6c2680081299b/artifacts
+end_time: 1703703265640
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: de250ae5d7f247f6b4d6c2680081299b
+run_name: merciful-moose-153
+run_uuid: de250ae5d7f247f6b4d6c2680081299b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703703261639
+status: 3
+tags: []
+user_id: kda

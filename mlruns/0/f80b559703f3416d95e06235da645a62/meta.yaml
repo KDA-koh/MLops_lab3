@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/f80b559703f3416d95e06235da645a62/artifacts
+end_time: 1703703320275
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f80b559703f3416d95e06235da645a62
+run_name: adventurous-jay-459
+run_uuid: f80b559703f3416d95e06235da645a62
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703703317323
+status: 3
+tags: []
+user_id: kda

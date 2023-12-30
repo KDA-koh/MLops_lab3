@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/dd345a4a261c4a30aa97f3fa7814f7a9/artifacts
+end_time: 1703704860446
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: dd345a4a261c4a30aa97f3fa7814f7a9
+run_name: mercurial-quail-806
+run_uuid: dd345a4a261c4a30aa97f3fa7814f7a9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703704858779
+status: 3
+tags: []
+user_id: kda

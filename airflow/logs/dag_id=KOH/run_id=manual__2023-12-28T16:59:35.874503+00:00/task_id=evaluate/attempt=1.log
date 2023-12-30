@@ -1,0 +1,275 @@
+[2023-12-28T22:00:47.826+0500] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: KOH.evaluate manual__2023-12-28T16:59:35.874503+00:00 [queued]>
+[2023-12-28T22:00:47.854+0500] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: KOH.evaluate manual__2023-12-28T16:59:35.874503+00:00 [queued]>
+[2023-12-28T22:00:47.861+0500] {taskinstance.py:1361} INFO - Starting attempt 1 of 2
+[2023-12-28T22:00:48.012+0500] {taskinstance.py:1382} INFO - Executing <Task(BashOperator): evaluate> on 2023-12-28 16:59:35.874503+00:00
+[2023-12-28T22:00:48.033+0500] {standard_task_runner.py:57} INFO - Started process 16211 to run task
+[2023-12-28T22:00:48.045+0500] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'KOH', 'evaluate', 'manual__2023-12-28T16:59:35.874503+00:00', '--job-id', '296', '--raw', '--subdir', 'DAGS_FOLDER/text.py', '--cfg-path', '/tmp/tmps183cqnj']
+[2023-12-28T22:00:48.049+0500] {standard_task_runner.py:85} INFO - Job 296: Subtask evaluate
+[2023-12-28T22:00:48.245+0500] {task_command.py:416} INFO - Running <TaskInstance: KOH.evaluate manual__2023-12-28T16:59:35.874503+00:00 [running]> on host vm2.myguest.virtualbox.org
+[2023-12-28T22:00:48.538+0500] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Admin' AIRFLOW_CTX_DAG_ID='KOH' AIRFLOW_CTX_TASK_ID='evaluate' AIRFLOW_CTX_EXECUTION_DATE='2023-12-28T16:59:35.874503+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-12-28T16:59:35.874503+00:00'
+[2023-12-28T22:00:48.550+0500] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2023-12-28T22:00:48.565+0500] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'cd /home/kda/ML_lab3/MLops_lab3/ && python /home/kda/ML_lab3/MLops_lab3/scripts/evaluate.py']
+[2023-12-28T22:00:48.607+0500] {subprocess.py:86} INFO - Output:
+[2023-12-28T22:00:53.908+0500] {subprocess.py:93} INFO - 2023/12/28 22:00:53 INFO mlflow.tracking.fluent: Experiment with name 'tree_model_train' does not exist. Creating a new experiment.
+[2023-12-28T22:01:03.932+0500] {subprocess.py:93} INFO - Successfully registered model 'tree'.
+[2023-12-28T22:01:04.066+0500] {subprocess.py:93} INFO - 2023/12/28 22:01:04 INFO mlflow.store.model_registry.abstract_store: Waiting up to 300 seconds for model version to finish creation. Model name: tree, version 1
+[2023-12-28T22:01:04.067+0500] {subprocess.py:93} INFO - Created version '1' of model 'tree'.
+[2023-12-28T22:01:09.473+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:18: UserWarning: Distutils was imported before Setuptools, but importing Setuptools also replaces the `distutils` module in `sys.modules`. This may lead to undesirable behaviors or errors. To avoid these issues, avoid using distutils directly, ensure that setuptools is installed in the traditional way (e.g. not an editable install), and/or make sure that setuptools is always imported before distutils.
+[2023-12-28T22:01:09.473+0500] {subprocess.py:93} INFO -   warnings.warn(
+[2023-12-28T22:01:09.474+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:33: UserWarning: Setuptools is replacing distutils.
+[2023-12-28T22:01:09.474+0500] {subprocess.py:93} INFO -   warnings.warn("Setuptools is replacing distutils.")
+[2023-12-28T22:01:09.678+0500] {subprocess.py:93} INFO - Registered model 'tree' already exists. Creating a new version of this model...
+[2023-12-28T22:01:09.942+0500] {subprocess.py:93} INFO - 2023/12/28 22:01:09 INFO mlflow.store.model_registry.abstract_store: Waiting up to 300 seconds for model version to finish creation. Model name: tree, version 2
+[2023-12-28T22:01:09.944+0500] {subprocess.py:93} INFO - Created version '2' of model 'tree'.
+[2023-12-28T22:01:14.749+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:18: UserWarning: Distutils was imported before Setuptools, but importing Setuptools also replaces the `distutils` module in `sys.modules`. This may lead to undesirable behaviors or errors. To avoid these issues, avoid using distutils directly, ensure that setuptools is installed in the traditional way (e.g. not an editable install), and/or make sure that setuptools is always imported before distutils.
+[2023-12-28T22:01:14.749+0500] {subprocess.py:93} INFO -   warnings.warn(
+[2023-12-28T22:01:14.749+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:33: UserWarning: Setuptools is replacing distutils.
+[2023-12-28T22:01:14.749+0500] {subprocess.py:93} INFO -   warnings.warn("Setuptools is replacing distutils.")
+[2023-12-28T22:01:18.219+0500] {subprocess.py:93} INFO - Registered model 'tree' already exists. Creating a new version of this model...
+[2023-12-28T22:01:18.471+0500] {subprocess.py:93} INFO - 2023/12/28 22:01:18 INFO mlflow.store.model_registry.abstract_store: Waiting up to 300 seconds for model version to finish creation. Model name: tree, version 3
+[2023-12-28T22:01:18.472+0500] {subprocess.py:93} INFO - Created version '3' of model 'tree'.
+[2023-12-28T22:01:24.761+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:18: UserWarning: Distutils was imported before Setuptools, but importing Setuptools also replaces the `distutils` module in `sys.modules`. This may lead to undesirable behaviors or errors. To avoid these issues, avoid using distutils directly, ensure that setuptools is installed in the traditional way (e.g. not an editable install), and/or make sure that setuptools is always imported before distutils.
+[2023-12-28T22:01:24.762+0500] {subprocess.py:93} INFO -   warnings.warn(
+[2023-12-28T22:01:24.762+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:33: UserWarning: Setuptools is replacing distutils.
+[2023-12-28T22:01:24.762+0500] {subprocess.py:93} INFO -   warnings.warn("Setuptools is replacing distutils.")
+[2023-12-28T22:01:27.568+0500] {subprocess.py:93} INFO - Registered model 'tree' already exists. Creating a new version of this model...
+[2023-12-28T22:01:29.359+0500] {subprocess.py:93} INFO - 2023/12/28 22:01:29 INFO mlflow.store.model_registry.abstract_store: Waiting up to 300 seconds for model version to finish creation. Model name: tree, version 4
+[2023-12-28T22:01:29.366+0500] {subprocess.py:93} INFO - Created version '4' of model 'tree'.
+[2023-12-28T22:01:37.718+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:18: UserWarning: Distutils was imported before Setuptools, but importing Setuptools also replaces the `distutils` module in `sys.modules`. This may lead to undesirable behaviors or errors. To avoid these issues, avoid using distutils directly, ensure that setuptools is installed in the traditional way (e.g. not an editable install), and/or make sure that setuptools is always imported before distutils.
+[2023-12-28T22:01:37.719+0500] {subprocess.py:93} INFO -   warnings.warn(
+[2023-12-28T22:01:37.720+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:33: UserWarning: Setuptools is replacing distutils.
+[2023-12-28T22:01:37.720+0500] {subprocess.py:93} INFO -   warnings.warn("Setuptools is replacing distutils.")
+[2023-12-28T22:01:37.885+0500] {subprocess.py:93} INFO - Registered model 'tree' already exists. Creating a new version of this model...
+[2023-12-28T22:01:38.094+0500] {subprocess.py:93} INFO - 2023/12/28 22:01:38 INFO mlflow.store.model_registry.abstract_store: Waiting up to 300 seconds for model version to finish creation. Model name: tree, version 5
+[2023-12-28T22:01:38.099+0500] {subprocess.py:93} INFO - Created version '5' of model 'tree'.
+[2023-12-28T22:01:42.330+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:18: UserWarning: Distutils was imported before Setuptools, but importing Setuptools also replaces the `distutils` module in `sys.modules`. This may lead to undesirable behaviors or errors. To avoid these issues, avoid using distutils directly, ensure that setuptools is installed in the traditional way (e.g. not an editable install), and/or make sure that setuptools is always imported before distutils.
+[2023-12-28T22:01:42.330+0500] {subprocess.py:93} INFO -   warnings.warn(
+[2023-12-28T22:01:42.330+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:33: UserWarning: Setuptools is replacing distutils.
+[2023-12-28T22:01:42.330+0500] {subprocess.py:93} INFO -   warnings.warn("Setuptools is replacing distutils.")
+[2023-12-28T22:01:42.584+0500] {subprocess.py:93} INFO - Registered model 'tree' already exists. Creating a new version of this model...
+[2023-12-28T22:01:42.716+0500] {subprocess.py:93} INFO - 2023/12/28 22:01:42 INFO mlflow.store.model_registry.abstract_store: Waiting up to 300 seconds for model version to finish creation. Model name: tree, version 6
+[2023-12-28T22:01:42.716+0500] {subprocess.py:93} INFO - Created version '6' of model 'tree'.
+[2023-12-28T22:01:45.996+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:18: UserWarning: Distutils was imported before Setuptools, but importing Setuptools also replaces the `distutils` module in `sys.modules`. This may lead to undesirable behaviors or errors. To avoid these issues, avoid using distutils directly, ensure that setuptools is installed in the traditional way (e.g. not an editable install), and/or make sure that setuptools is always imported before distutils.
+[2023-12-28T22:01:45.998+0500] {subprocess.py:93} INFO -   warnings.warn(
+[2023-12-28T22:01:45.998+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:33: UserWarning: Setuptools is replacing distutils.
+[2023-12-28T22:01:45.998+0500] {subprocess.py:93} INFO -   warnings.warn("Setuptools is replacing distutils.")
+[2023-12-28T22:01:46.163+0500] {subprocess.py:93} INFO - Registered model 'tree' already exists. Creating a new version of this model...
+[2023-12-28T22:01:46.436+0500] {subprocess.py:93} INFO - 2023/12/28 22:01:46 INFO mlflow.store.model_registry.abstract_store: Waiting up to 300 seconds for model version to finish creation. Model name: tree, version 7
+[2023-12-28T22:01:46.441+0500] {subprocess.py:93} INFO - Created version '7' of model 'tree'.
+[2023-12-28T22:01:49.628+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:18: UserWarning: Distutils was imported before Setuptools, but importing Setuptools also replaces the `distutils` module in `sys.modules`. This may lead to undesirable behaviors or errors. To avoid these issues, avoid using distutils directly, ensure that setuptools is installed in the traditional way (e.g. not an editable install), and/or make sure that setuptools is always imported before distutils.
+[2023-12-28T22:01:49.629+0500] {subprocess.py:93} INFO -   warnings.warn(
+[2023-12-28T22:01:49.629+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:33: UserWarning: Setuptools is replacing distutils.
+[2023-12-28T22:01:49.630+0500] {subprocess.py:93} INFO -   warnings.warn("Setuptools is replacing distutils.")
+[2023-12-28T22:01:49.823+0500] {subprocess.py:93} INFO - Registered model 'tree' already exists. Creating a new version of this model...
+[2023-12-28T22:01:50.096+0500] {subprocess.py:93} INFO - 2023/12/28 22:01:50 INFO mlflow.store.model_registry.abstract_store: Waiting up to 300 seconds for model version to finish creation. Model name: tree, version 8
+[2023-12-28T22:01:50.097+0500] {subprocess.py:93} INFO - Created version '8' of model 'tree'.
+[2023-12-28T22:01:55.912+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:18: UserWarning: Distutils was imported before Setuptools, but importing Setuptools also replaces the `distutils` module in `sys.modules`. This may lead to undesirable behaviors or errors. To avoid these issues, avoid using distutils directly, ensure that setuptools is installed in the traditional way (e.g. not an editable install), and/or make sure that setuptools is always imported before distutils.
+[2023-12-28T22:01:55.912+0500] {subprocess.py:93} INFO -   warnings.warn(
+[2023-12-28T22:01:55.912+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:33: UserWarning: Setuptools is replacing distutils.
+[2023-12-28T22:01:55.912+0500] {subprocess.py:93} INFO -   warnings.warn("Setuptools is replacing distutils.")
+[2023-12-28T22:01:56.034+0500] {subprocess.py:93} INFO - Registered model 'tree' already exists. Creating a new version of this model...
+[2023-12-28T22:01:56.083+0500] {subprocess.py:93} INFO - 2023/12/28 22:01:56 INFO mlflow.store.model_registry.abstract_store: Waiting up to 300 seconds for model version to finish creation. Model name: tree, version 9
+[2023-12-28T22:01:56.084+0500] {subprocess.py:93} INFO - Created version '9' of model 'tree'.
+[2023-12-28T22:01:59.774+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:18: UserWarning: Distutils was imported before Setuptools, but importing Setuptools also replaces the `distutils` module in `sys.modules`. This may lead to undesirable behaviors or errors. To avoid these issues, avoid using distutils directly, ensure that setuptools is installed in the traditional way (e.g. not an editable install), and/or make sure that setuptools is always imported before distutils.
+[2023-12-28T22:01:59.774+0500] {subprocess.py:93} INFO -   warnings.warn(
+[2023-12-28T22:01:59.775+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:33: UserWarning: Setuptools is replacing distutils.
+[2023-12-28T22:01:59.775+0500] {subprocess.py:93} INFO -   warnings.warn("Setuptools is replacing distutils.")
+[2023-12-28T22:01:59.930+0500] {subprocess.py:93} INFO - Registered model 'tree' already exists. Creating a new version of this model...
+[2023-12-28T22:02:00.064+0500] {subprocess.py:93} INFO - 2023/12/28 22:02:00 INFO mlflow.store.model_registry.abstract_store: Waiting up to 300 seconds for model version to finish creation. Model name: tree, version 10
+[2023-12-28T22:02:00.064+0500] {subprocess.py:93} INFO - Created version '10' of model 'tree'.
+[2023-12-28T22:02:05.713+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:18: UserWarning: Distutils was imported before Setuptools, but importing Setuptools also replaces the `distutils` module in `sys.modules`. This may lead to undesirable behaviors or errors. To avoid these issues, avoid using distutils directly, ensure that setuptools is installed in the traditional way (e.g. not an editable install), and/or make sure that setuptools is always imported before distutils.
+[2023-12-28T22:02:05.713+0500] {subprocess.py:93} INFO -   warnings.warn(
+[2023-12-28T22:02:05.739+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:33: UserWarning: Setuptools is replacing distutils.
+[2023-12-28T22:02:05.739+0500] {subprocess.py:93} INFO -   warnings.warn("Setuptools is replacing distutils.")
+[2023-12-28T22:02:06.178+0500] {subprocess.py:93} INFO - Registered model 'tree' already exists. Creating a new version of this model...
+[2023-12-28T22:02:06.452+0500] {subprocess.py:93} INFO - 2023/12/28 22:02:06 INFO mlflow.store.model_registry.abstract_store: Waiting up to 300 seconds for model version to finish creation. Model name: tree, version 11
+[2023-12-28T22:02:06.453+0500] {subprocess.py:93} INFO - Created version '11' of model 'tree'.
+[2023-12-28T22:02:09.929+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:18: UserWarning: Distutils was imported before Setuptools, but importing Setuptools also replaces the `distutils` module in `sys.modules`. This may lead to undesirable behaviors or errors. To avoid these issues, avoid using distutils directly, ensure that setuptools is installed in the traditional way (e.g. not an editable install), and/or make sure that setuptools is always imported before distutils.
+[2023-12-28T22:02:09.930+0500] {subprocess.py:93} INFO -   warnings.warn(
+[2023-12-28T22:02:09.930+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:33: UserWarning: Setuptools is replacing distutils.
+[2023-12-28T22:02:09.930+0500] {subprocess.py:93} INFO -   warnings.warn("Setuptools is replacing distutils.")
+[2023-12-28T22:02:09.985+0500] {subprocess.py:93} INFO - Registered model 'tree' already exists. Creating a new version of this model...
+[2023-12-28T22:02:10.077+0500] {subprocess.py:93} INFO - 2023/12/28 22:02:10 INFO mlflow.store.model_registry.abstract_store: Waiting up to 300 seconds for model version to finish creation. Model name: tree, version 12
+[2023-12-28T22:02:10.078+0500] {subprocess.py:93} INFO - Created version '12' of model 'tree'.
+[2023-12-28T22:02:13.262+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:18: UserWarning: Distutils was imported before Setuptools, but importing Setuptools also replaces the `distutils` module in `sys.modules`. This may lead to undesirable behaviors or errors. To avoid these issues, avoid using distutils directly, ensure that setuptools is installed in the traditional way (e.g. not an editable install), and/or make sure that setuptools is always imported before distutils.
+[2023-12-28T22:02:13.263+0500] {subprocess.py:93} INFO -   warnings.warn(
+[2023-12-28T22:02:13.263+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:33: UserWarning: Setuptools is replacing distutils.
+[2023-12-28T22:02:13.263+0500] {subprocess.py:93} INFO -   warnings.warn("Setuptools is replacing distutils.")
+[2023-12-28T22:02:14.492+0500] {subprocess.py:93} INFO - Registered model 'tree' already exists. Creating a new version of this model...
+[2023-12-28T22:02:14.587+0500] {subprocess.py:93} INFO - 2023/12/28 22:02:14 INFO mlflow.store.model_registry.abstract_store: Waiting up to 300 seconds for model version to finish creation. Model name: tree, version 13
+[2023-12-28T22:02:14.591+0500] {subprocess.py:93} INFO - Created version '13' of model 'tree'.
+[2023-12-28T22:02:17.620+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:18: UserWarning: Distutils was imported before Setuptools, but importing Setuptools also replaces the `distutils` module in `sys.modules`. This may lead to undesirable behaviors or errors. To avoid these issues, avoid using distutils directly, ensure that setuptools is installed in the traditional way (e.g. not an editable install), and/or make sure that setuptools is always imported before distutils.
+[2023-12-28T22:02:17.620+0500] {subprocess.py:93} INFO -   warnings.warn(
+[2023-12-28T22:02:17.620+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:33: UserWarning: Setuptools is replacing distutils.
+[2023-12-28T22:02:17.620+0500] {subprocess.py:93} INFO -   warnings.warn("Setuptools is replacing distutils.")
+[2023-12-28T22:02:17.714+0500] {subprocess.py:93} INFO - Registered model 'tree' already exists. Creating a new version of this model...
+[2023-12-28T22:02:17.811+0500] {subprocess.py:93} INFO - 2023/12/28 22:02:17 INFO mlflow.store.model_registry.abstract_store: Waiting up to 300 seconds for model version to finish creation. Model name: tree, version 14
+[2023-12-28T22:02:17.812+0500] {subprocess.py:93} INFO - Created version '14' of model 'tree'.
+[2023-12-28T22:02:19.694+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:18: UserWarning: Distutils was imported before Setuptools, but importing Setuptools also replaces the `distutils` module in `sys.modules`. This may lead to undesirable behaviors or errors. To avoid these issues, avoid using distutils directly, ensure that setuptools is installed in the traditional way (e.g. not an editable install), and/or make sure that setuptools is always imported before distutils.
+[2023-12-28T22:02:19.694+0500] {subprocess.py:93} INFO -   warnings.warn(
+[2023-12-28T22:02:19.694+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:33: UserWarning: Setuptools is replacing distutils.
+[2023-12-28T22:02:19.694+0500] {subprocess.py:93} INFO -   warnings.warn("Setuptools is replacing distutils.")
+[2023-12-28T22:02:19.749+0500] {subprocess.py:93} INFO - Registered model 'tree' already exists. Creating a new version of this model...
+[2023-12-28T22:02:19.815+0500] {subprocess.py:93} INFO - 2023/12/28 22:02:19 INFO mlflow.store.model_registry.abstract_store: Waiting up to 300 seconds for model version to finish creation. Model name: tree, version 15
+[2023-12-28T22:02:19.815+0500] {subprocess.py:93} INFO - Created version '15' of model 'tree'.
+[2023-12-28T22:02:22.945+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:18: UserWarning: Distutils was imported before Setuptools, but importing Setuptools also replaces the `distutils` module in `sys.modules`. This may lead to undesirable behaviors or errors. To avoid these issues, avoid using distutils directly, ensure that setuptools is installed in the traditional way (e.g. not an editable install), and/or make sure that setuptools is always imported before distutils.
+[2023-12-28T22:02:22.945+0500] {subprocess.py:93} INFO -   warnings.warn(
+[2023-12-28T22:02:22.945+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:33: UserWarning: Setuptools is replacing distutils.
+[2023-12-28T22:02:22.945+0500] {subprocess.py:93} INFO -   warnings.warn("Setuptools is replacing distutils.")
+[2023-12-28T22:02:23.023+0500] {subprocess.py:93} INFO - Registered model 'tree' already exists. Creating a new version of this model...
+[2023-12-28T22:02:23.115+0500] {subprocess.py:93} INFO - 2023/12/28 22:02:23 INFO mlflow.store.model_registry.abstract_store: Waiting up to 300 seconds for model version to finish creation. Model name: tree, version 16
+[2023-12-28T22:02:23.115+0500] {subprocess.py:93} INFO - Created version '16' of model 'tree'.
+[2023-12-28T22:02:26.564+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:18: UserWarning: Distutils was imported before Setuptools, but importing Setuptools also replaces the `distutils` module in `sys.modules`. This may lead to undesirable behaviors or errors. To avoid these issues, avoid using distutils directly, ensure that setuptools is installed in the traditional way (e.g. not an editable install), and/or make sure that setuptools is always imported before distutils.
+[2023-12-28T22:02:26.564+0500] {subprocess.py:93} INFO -   warnings.warn(
+[2023-12-28T22:02:26.565+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:33: UserWarning: Setuptools is replacing distutils.
+[2023-12-28T22:02:26.565+0500] {subprocess.py:93} INFO -   warnings.warn("Setuptools is replacing distutils.")
+[2023-12-28T22:02:26.698+0500] {subprocess.py:93} INFO - Registered model 'tree' already exists. Creating a new version of this model...
+[2023-12-28T22:02:26.826+0500] {subprocess.py:93} INFO - 2023/12/28 22:02:26 INFO mlflow.store.model_registry.abstract_store: Waiting up to 300 seconds for model version to finish creation. Model name: tree, version 17
+[2023-12-28T22:02:26.826+0500] {subprocess.py:93} INFO - Created version '17' of model 'tree'.
+[2023-12-28T22:02:29.870+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:18: UserWarning: Distutils was imported before Setuptools, but importing Setuptools also replaces the `distutils` module in `sys.modules`. This may lead to undesirable behaviors or errors. To avoid these issues, avoid using distutils directly, ensure that setuptools is installed in the traditional way (e.g. not an editable install), and/or make sure that setuptools is always imported before distutils.
+[2023-12-28T22:02:29.870+0500] {subprocess.py:93} INFO -   warnings.warn(
+[2023-12-28T22:02:29.870+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:33: UserWarning: Setuptools is replacing distutils.
+[2023-12-28T22:02:29.870+0500] {subprocess.py:93} INFO -   warnings.warn("Setuptools is replacing distutils.")
+[2023-12-28T22:02:30.025+0500] {subprocess.py:93} INFO - Registered model 'tree' already exists. Creating a new version of this model...
+[2023-12-28T22:02:30.116+0500] {subprocess.py:93} INFO - 2023/12/28 22:02:30 INFO mlflow.store.model_registry.abstract_store: Waiting up to 300 seconds for model version to finish creation. Model name: tree, version 18
+[2023-12-28T22:02:30.117+0500] {subprocess.py:93} INFO - Created version '18' of model 'tree'.
+[2023-12-28T22:02:33.045+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:18: UserWarning: Distutils was imported before Setuptools, but importing Setuptools also replaces the `distutils` module in `sys.modules`. This may lead to undesirable behaviors or errors. To avoid these issues, avoid using distutils directly, ensure that setuptools is installed in the traditional way (e.g. not an editable install), and/or make sure that setuptools is always imported before distutils.
+[2023-12-28T22:02:33.046+0500] {subprocess.py:93} INFO -   warnings.warn(
+[2023-12-28T22:02:33.046+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:33: UserWarning: Setuptools is replacing distutils.
+[2023-12-28T22:02:33.046+0500] {subprocess.py:93} INFO -   warnings.warn("Setuptools is replacing distutils.")
+[2023-12-28T22:02:33.101+0500] {subprocess.py:93} INFO - Registered model 'tree' already exists. Creating a new version of this model...
+[2023-12-28T22:02:33.158+0500] {subprocess.py:93} INFO - 2023/12/28 22:02:33 INFO mlflow.store.model_registry.abstract_store: Waiting up to 300 seconds for model version to finish creation. Model name: tree, version 19
+[2023-12-28T22:02:33.158+0500] {subprocess.py:93} INFO - Created version '19' of model 'tree'.
+[2023-12-28T22:02:36.113+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:18: UserWarning: Distutils was imported before Setuptools, but importing Setuptools also replaces the `distutils` module in `sys.modules`. This may lead to undesirable behaviors or errors. To avoid these issues, avoid using distutils directly, ensure that setuptools is installed in the traditional way (e.g. not an editable install), and/or make sure that setuptools is always imported before distutils.
+[2023-12-28T22:02:36.113+0500] {subprocess.py:93} INFO -   warnings.warn(
+[2023-12-28T22:02:36.113+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:33: UserWarning: Setuptools is replacing distutils.
+[2023-12-28T22:02:36.114+0500] {subprocess.py:93} INFO -   warnings.warn("Setuptools is replacing distutils.")
+[2023-12-28T22:02:36.166+0500] {subprocess.py:93} INFO - Registered model 'tree' already exists. Creating a new version of this model...
+[2023-12-28T22:02:36.275+0500] {subprocess.py:93} INFO - 2023/12/28 22:02:36 INFO mlflow.store.model_registry.abstract_store: Waiting up to 300 seconds for model version to finish creation. Model name: tree, version 20
+[2023-12-28T22:02:36.275+0500] {subprocess.py:93} INFO - Created version '20' of model 'tree'.
+[2023-12-28T22:02:39.428+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:18: UserWarning: Distutils was imported before Setuptools, but importing Setuptools also replaces the `distutils` module in `sys.modules`. This may lead to undesirable behaviors or errors. To avoid these issues, avoid using distutils directly, ensure that setuptools is installed in the traditional way (e.g. not an editable install), and/or make sure that setuptools is always imported before distutils.
+[2023-12-28T22:02:39.428+0500] {subprocess.py:93} INFO -   warnings.warn(
+[2023-12-28T22:02:39.428+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:33: UserWarning: Setuptools is replacing distutils.
+[2023-12-28T22:02:39.429+0500] {subprocess.py:93} INFO -   warnings.warn("Setuptools is replacing distutils.")
+[2023-12-28T22:02:39.477+0500] {subprocess.py:93} INFO - Registered model 'tree' already exists. Creating a new version of this model...
+[2023-12-28T22:02:39.541+0500] {subprocess.py:93} INFO - 2023/12/28 22:02:39 INFO mlflow.store.model_registry.abstract_store: Waiting up to 300 seconds for model version to finish creation. Model name: tree, version 21
+[2023-12-28T22:02:39.542+0500] {subprocess.py:93} INFO - Created version '21' of model 'tree'.
+[2023-12-28T22:02:42.748+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:18: UserWarning: Distutils was imported before Setuptools, but importing Setuptools also replaces the `distutils` module in `sys.modules`. This may lead to undesirable behaviors or errors. To avoid these issues, avoid using distutils directly, ensure that setuptools is installed in the traditional way (e.g. not an editable install), and/or make sure that setuptools is always imported before distutils.
+[2023-12-28T22:02:42.748+0500] {subprocess.py:93} INFO -   warnings.warn(
+[2023-12-28T22:02:42.752+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:33: UserWarning: Setuptools is replacing distutils.
+[2023-12-28T22:02:42.753+0500] {subprocess.py:93} INFO -   warnings.warn("Setuptools is replacing distutils.")
+[2023-12-28T22:02:42.830+0500] {subprocess.py:93} INFO - Registered model 'tree' already exists. Creating a new version of this model...
+[2023-12-28T22:02:42.946+0500] {subprocess.py:93} INFO - 2023/12/28 22:02:42 INFO mlflow.store.model_registry.abstract_store: Waiting up to 300 seconds for model version to finish creation. Model name: tree, version 22
+[2023-12-28T22:02:42.947+0500] {subprocess.py:93} INFO - Created version '22' of model 'tree'.
+[2023-12-28T22:02:45.336+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:18: UserWarning: Distutils was imported before Setuptools, but importing Setuptools also replaces the `distutils` module in `sys.modules`. This may lead to undesirable behaviors or errors. To avoid these issues, avoid using distutils directly, ensure that setuptools is installed in the traditional way (e.g. not an editable install), and/or make sure that setuptools is always imported before distutils.
+[2023-12-28T22:02:45.336+0500] {subprocess.py:93} INFO -   warnings.warn(
+[2023-12-28T22:02:45.336+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:33: UserWarning: Setuptools is replacing distutils.
+[2023-12-28T22:02:45.336+0500] {subprocess.py:93} INFO -   warnings.warn("Setuptools is replacing distutils.")
+[2023-12-28T22:02:45.452+0500] {subprocess.py:93} INFO - Registered model 'tree' already exists. Creating a new version of this model...
+[2023-12-28T22:02:45.562+0500] {subprocess.py:93} INFO - 2023/12/28 22:02:45 INFO mlflow.store.model_registry.abstract_store: Waiting up to 300 seconds for model version to finish creation. Model name: tree, version 23
+[2023-12-28T22:02:45.562+0500] {subprocess.py:93} INFO - Created version '23' of model 'tree'.
+[2023-12-28T22:02:47.727+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:18: UserWarning: Distutils was imported before Setuptools, but importing Setuptools also replaces the `distutils` module in `sys.modules`. This may lead to undesirable behaviors or errors. To avoid these issues, avoid using distutils directly, ensure that setuptools is installed in the traditional way (e.g. not an editable install), and/or make sure that setuptools is always imported before distutils.
+[2023-12-28T22:02:47.728+0500] {subprocess.py:93} INFO -   warnings.warn(
+[2023-12-28T22:02:47.730+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:33: UserWarning: Setuptools is replacing distutils.
+[2023-12-28T22:02:47.730+0500] {subprocess.py:93} INFO -   warnings.warn("Setuptools is replacing distutils.")
+[2023-12-28T22:02:47.842+0500] {subprocess.py:93} INFO - Registered model 'tree' already exists. Creating a new version of this model...
+[2023-12-28T22:02:47.933+0500] {subprocess.py:93} INFO - 2023/12/28 22:02:47 INFO mlflow.store.model_registry.abstract_store: Waiting up to 300 seconds for model version to finish creation. Model name: tree, version 24
+[2023-12-28T22:02:47.933+0500] {subprocess.py:93} INFO - Created version '24' of model 'tree'.
+[2023-12-28T22:02:50.745+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:18: UserWarning: Distutils was imported before Setuptools, but importing Setuptools also replaces the `distutils` module in `sys.modules`. This may lead to undesirable behaviors or errors. To avoid these issues, avoid using distutils directly, ensure that setuptools is installed in the traditional way (e.g. not an editable install), and/or make sure that setuptools is always imported before distutils.
+[2023-12-28T22:02:50.745+0500] {subprocess.py:93} INFO -   warnings.warn(
+[2023-12-28T22:02:50.745+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:33: UserWarning: Setuptools is replacing distutils.
+[2023-12-28T22:02:50.745+0500] {subprocess.py:93} INFO -   warnings.warn("Setuptools is replacing distutils.")
+[2023-12-28T22:02:50.868+0500] {subprocess.py:93} INFO - Registered model 'tree' already exists. Creating a new version of this model...
+[2023-12-28T22:02:51.005+0500] {subprocess.py:93} INFO - 2023/12/28 22:02:51 INFO mlflow.store.model_registry.abstract_store: Waiting up to 300 seconds for model version to finish creation. Model name: tree, version 25
+[2023-12-28T22:02:51.006+0500] {subprocess.py:93} INFO - Created version '25' of model 'tree'.
+[2023-12-28T22:02:54.056+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:18: UserWarning: Distutils was imported before Setuptools, but importing Setuptools also replaces the `distutils` module in `sys.modules`. This may lead to undesirable behaviors or errors. To avoid these issues, avoid using distutils directly, ensure that setuptools is installed in the traditional way (e.g. not an editable install), and/or make sure that setuptools is always imported before distutils.
+[2023-12-28T22:02:54.057+0500] {subprocess.py:93} INFO -   warnings.warn(
+[2023-12-28T22:02:54.057+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:33: UserWarning: Setuptools is replacing distutils.
+[2023-12-28T22:02:54.057+0500] {subprocess.py:93} INFO -   warnings.warn("Setuptools is replacing distutils.")
+[2023-12-28T22:02:54.176+0500] {subprocess.py:93} INFO - Registered model 'tree' already exists. Creating a new version of this model...
+[2023-12-28T22:02:54.259+0500] {subprocess.py:93} INFO - 2023/12/28 22:02:54 INFO mlflow.store.model_registry.abstract_store: Waiting up to 300 seconds for model version to finish creation. Model name: tree, version 26
+[2023-12-28T22:02:54.259+0500] {subprocess.py:93} INFO - Created version '26' of model 'tree'.
+[2023-12-28T22:02:57.530+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:18: UserWarning: Distutils was imported before Setuptools, but importing Setuptools also replaces the `distutils` module in `sys.modules`. This may lead to undesirable behaviors or errors. To avoid these issues, avoid using distutils directly, ensure that setuptools is installed in the traditional way (e.g. not an editable install), and/or make sure that setuptools is always imported before distutils.
+[2023-12-28T22:02:57.531+0500] {subprocess.py:93} INFO -   warnings.warn(
+[2023-12-28T22:02:57.531+0500] {subprocess.py:93} INFO - /home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/_distutils_hack/__init__.py:33: UserWarning: Setuptools is replacing distutils.
+[2023-12-28T22:02:57.532+0500] {subprocess.py:93} INFO -   warnings.warn("Setuptools is replacing distutils.")
+[2023-12-28T22:02:57.649+0500] {subprocess.py:93} INFO - Registered model 'tree' already exists. Creating a new version of this model...
+[2023-12-28T22:02:57.711+0500] {subprocess.py:93} INFO - 2023/12/28 22:02:57 INFO mlflow.store.model_registry.abstract_store: Waiting up to 300 seconds for model version to finish creation. Model name: tree, version 27
+[2023-12-28T22:02:57.711+0500] {subprocess.py:93} INFO - Created version '27' of model 'tree'.
+[2023-12-28T22:02:57.938+0500] {subprocess.py:93} INFO - <class 'pandas.core.frame.DataFrame'>
+[2023-12-28T22:02:57.939+0500] {subprocess.py:93} INFO - RangeIndex: 704 entries, 0 to 703
+[2023-12-28T22:02:57.939+0500] {subprocess.py:93} INFO - Columns: 220 entries, Price (in USD) to i8
+[2023-12-28T22:02:57.939+0500] {subprocess.py:93} INFO - dtypes: bool(212), float64(2), int64(6)
+[2023-12-28T22:02:57.939+0500] {subprocess.py:93} INFO - memory usage: 189.9 KB
+[2023-12-28T22:02:57.939+0500] {subprocess.py:93} INFO - {'max_depth': 10, 'max_features': 10, 'min_samples_leaf': 5}
+[2023-12-28T22:02:57.939+0500] {subprocess.py:93} INFO - 0.2059659090909091
+[2023-12-28T22:02:57.939+0500] {subprocess.py:93} INFO - {'max_depth': 10, 'max_features': 10, 'min_samples_leaf': 10}
+[2023-12-28T22:02:57.939+0500] {subprocess.py:93} INFO - 0.10511363636363637
+[2023-12-28T22:02:57.939+0500] {subprocess.py:93} INFO - {'max_depth': 10, 'max_features': 10, 'min_samples_leaf': 15}
+[2023-12-28T22:02:57.939+0500] {subprocess.py:93} INFO - 0.14772727272727273
+[2023-12-28T22:02:57.939+0500] {subprocess.py:93} INFO - {'max_depth': 10, 'max_features': 20, 'min_samples_leaf': 5}
+[2023-12-28T22:02:57.939+0500] {subprocess.py:93} INFO - 0.19602272727272727
+[2023-12-28T22:02:57.939+0500] {subprocess.py:93} INFO - {'max_depth': 10, 'max_features': 20, 'min_samples_leaf': 10}
+[2023-12-28T22:02:57.939+0500] {subprocess.py:93} INFO - 0.15198863636363635
+[2023-12-28T22:02:57.939+0500] {subprocess.py:93} INFO - {'max_depth': 10, 'max_features': 20, 'min_samples_leaf': 15}
+[2023-12-28T22:02:57.939+0500] {subprocess.py:93} INFO - 0.16761363636363635
+[2023-12-28T22:02:57.940+0500] {subprocess.py:93} INFO - {'max_depth': 10, 'max_features': 30, 'min_samples_leaf': 5}
+[2023-12-28T22:02:57.940+0500] {subprocess.py:93} INFO - 0.18181818181818182
+[2023-12-28T22:02:57.940+0500] {subprocess.py:93} INFO - {'max_depth': 10, 'max_features': 30, 'min_samples_leaf': 10}
+[2023-12-28T22:02:57.940+0500] {subprocess.py:93} INFO - 0.24147727272727273
+[2023-12-28T22:02:57.940+0500] {subprocess.py:93} INFO - {'max_depth': 10, 'max_features': 30, 'min_samples_leaf': 15}
+[2023-12-28T22:02:57.940+0500] {subprocess.py:93} INFO - 0.16619318181818182
+[2023-12-28T22:02:57.940+0500] {subprocess.py:93} INFO - {'max_depth': 20, 'max_features': 10, 'min_samples_leaf': 5}
+[2023-12-28T22:02:57.940+0500] {subprocess.py:93} INFO - 0.24431818181818182
+[2023-12-28T22:02:57.940+0500] {subprocess.py:93} INFO - {'max_depth': 20, 'max_features': 10, 'min_samples_leaf': 10}
+[2023-12-28T22:02:57.940+0500] {subprocess.py:93} INFO - 0.15198863636363635
+[2023-12-28T22:02:57.940+0500] {subprocess.py:93} INFO - {'max_depth': 20, 'max_features': 10, 'min_samples_leaf': 15}
+[2023-12-28T22:02:57.940+0500] {subprocess.py:93} INFO - 0.06534090909090909
+[2023-12-28T22:02:57.940+0500] {subprocess.py:93} INFO - {'max_depth': 20, 'max_features': 20, 'min_samples_leaf': 5}
+[2023-12-28T22:02:57.940+0500] {subprocess.py:93} INFO - 0.2784090909090909
+[2023-12-28T22:02:57.940+0500] {subprocess.py:93} INFO - {'max_depth': 20, 'max_features': 20, 'min_samples_leaf': 10}
+[2023-12-28T22:02:57.941+0500] {subprocess.py:93} INFO - 0.19602272727272727
+[2023-12-28T22:02:57.941+0500] {subprocess.py:93} INFO - {'max_depth': 20, 'max_features': 20, 'min_samples_leaf': 15}
+[2023-12-28T22:02:57.941+0500] {subprocess.py:93} INFO - 0.23011363636363635
+[2023-12-28T22:02:57.941+0500] {subprocess.py:93} INFO - {'max_depth': 20, 'max_features': 30, 'min_samples_leaf': 5}
+[2023-12-28T22:02:57.941+0500] {subprocess.py:93} INFO - 0.3309659090909091
+[2023-12-28T22:02:57.941+0500] {subprocess.py:93} INFO - {'max_depth': 20, 'max_features': 30, 'min_samples_leaf': 10}
+[2023-12-28T22:02:57.941+0500] {subprocess.py:93} INFO - 0.3125
+[2023-12-28T22:02:57.941+0500] {subprocess.py:93} INFO - {'max_depth': 20, 'max_features': 30, 'min_samples_leaf': 15}
+[2023-12-28T22:02:57.941+0500] {subprocess.py:93} INFO - 0.26988636363636365
+[2023-12-28T22:02:57.941+0500] {subprocess.py:93} INFO - {'max_depth': 30, 'max_features': 10, 'min_samples_leaf': 5}
+[2023-12-28T22:02:57.941+0500] {subprocess.py:93} INFO - 0.14630681818181818
+[2023-12-28T22:02:57.941+0500] {subprocess.py:93} INFO - {'max_depth': 30, 'max_features': 10, 'min_samples_leaf': 10}
+[2023-12-28T22:02:57.941+0500] {subprocess.py:93} INFO - 0.19176136363636365
+[2023-12-28T22:02:57.941+0500] {subprocess.py:93} INFO - {'max_depth': 30, 'max_features': 10, 'min_samples_leaf': 15}
+[2023-12-28T22:02:57.941+0500] {subprocess.py:93} INFO - 0.04261363636363636
+[2023-12-28T22:02:57.941+0500] {subprocess.py:93} INFO - {'max_depth': 30, 'max_features': 20, 'min_samples_leaf': 5}
+[2023-12-28T22:02:57.941+0500] {subprocess.py:93} INFO - 0.37357954545454547
+[2023-12-28T22:02:57.942+0500] {subprocess.py:93} INFO - {'max_depth': 30, 'max_features': 20, 'min_samples_leaf': 10}
+[2023-12-28T22:02:57.942+0500] {subprocess.py:93} INFO - 0.2940340909090909
+[2023-12-28T22:02:57.942+0500] {subprocess.py:93} INFO - {'max_depth': 30, 'max_features': 20, 'min_samples_leaf': 15}
+[2023-12-28T22:02:57.942+0500] {subprocess.py:93} INFO - 0.05397727272727273
+[2023-12-28T22:02:57.942+0500] {subprocess.py:93} INFO - {'max_depth': 30, 'max_features': 30, 'min_samples_leaf': 5}
+[2023-12-28T22:02:57.942+0500] {subprocess.py:93} INFO - 0.43607954545454547
+[2023-12-28T22:02:57.942+0500] {subprocess.py:93} INFO - {'max_depth': 30, 'max_features': 30, 'min_samples_leaf': 10}
+[2023-12-28T22:02:57.942+0500] {subprocess.py:93} INFO - 0.3309659090909091
+[2023-12-28T22:02:57.943+0500] {subprocess.py:93} INFO - {'max_depth': 30, 'max_features': 30, 'min_samples_leaf': 15}
+[2023-12-28T22:02:57.943+0500] {subprocess.py:93} INFO - 0.26420454545454547
+[2023-12-28T22:02:57.943+0500] {subprocess.py:93} INFO -      Price (in USD)  Unnamed: 0.2  Unnamed: 0.1  ...  Z4 M40i  Z4 Roadster     i8
+[2023-12-28T22:02:57.943+0500] {subprocess.py:93} INFO - 0             67600           912           912  ...    False        False  False
+[2023-12-28T22:02:57.943+0500] {subprocess.py:93} INFO - 1             81250           843           843  ...    False        False  False
+[2023-12-28T22:02:57.943+0500] {subprocess.py:93} INFO - 2             69000           293           293  ...    False        False  False
+[2023-12-28T22:02:57.943+0500] {subprocess.py:93} INFO - 3            180000           554           554  ...    False        False  False
+[2023-12-28T22:02:57.943+0500] {subprocess.py:93} INFO - 4             64695           581           581  ...    False        False  False
+[2023-12-28T22:02:57.943+0500] {subprocess.py:93} INFO - ..              ...           ...           ...  ...      ...          ...    ...
+[2023-12-28T22:02:57.943+0500] {subprocess.py:93} INFO - 298          250000           951           951  ...    False        False  False
+[2023-12-28T22:02:57.944+0500] {subprocess.py:93} INFO - 299         2600000           523           523  ...    False        False  False
+[2023-12-28T22:02:57.944+0500] {subprocess.py:93} INFO - 300          103500            61            61  ...    False        False  False
+[2023-12-28T22:02:57.944+0500] {subprocess.py:93} INFO - 301          157500           355           355  ...    False        False  False
+[2023-12-28T22:02:57.944+0500] {subprocess.py:93} INFO - 302          200000           335           335  ...    False        False  False
+[2023-12-28T22:02:57.944+0500] {subprocess.py:93} INFO - 
+[2023-12-28T22:02:57.944+0500] {subprocess.py:93} INFO - [303 rows x 220 columns]
+[2023-12-28T22:02:58.450+0500] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-12-28T22:02:58.596+0500] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=KOH, task_id=evaluate, execution_date=20231228T165935, start_date=20231228T170047, end_date=20231228T170258
+[2023-12-28T22:02:58.663+0500] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-28T22:02:58.708+0500] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

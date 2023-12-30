@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/728765ef5f1a4dd480185a0b63413e83/artifacts
+end_time: 1703703091294
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 728765ef5f1a4dd480185a0b63413e83
+run_name: exultant-fly-404
+run_uuid: 728765ef5f1a4dd480185a0b63413e83
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703703087605
+status: 3
+tags: []
+user_id: kda

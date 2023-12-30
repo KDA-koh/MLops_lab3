@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/cbaf3e4faebe4092ac0341a988db8b27/artifacts
+end_time: 1703704042950
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cbaf3e4faebe4092ac0341a988db8b27
+run_name: welcoming-goose-10
+run_uuid: cbaf3e4faebe4092ac0341a988db8b27
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703704041363
+status: 3
+tags: []
+user_id: kda

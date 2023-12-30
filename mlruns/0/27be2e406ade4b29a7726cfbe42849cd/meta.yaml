@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/27be2e406ade4b29a7726cfbe42849cd/artifacts
+end_time: 1703703327988
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 27be2e406ade4b29a7726cfbe42849cd
+run_name: grandiose-fish-768
+run_uuid: 27be2e406ade4b29a7726cfbe42849cd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703703324967
+status: 3
+tags: []
+user_id: kda

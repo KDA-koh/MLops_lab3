@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/79be4d016a0144b889b7a94d0a74876d/artifacts
+end_time: 1703704025256
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 79be4d016a0144b889b7a94d0a74876d
+run_name: peaceful-bear-632
+run_uuid: 79be4d016a0144b889b7a94d0a74876d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703704023462
+status: 3
+tags: []
+user_id: kda

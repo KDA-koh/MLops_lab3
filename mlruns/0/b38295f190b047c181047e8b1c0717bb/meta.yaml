@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/b38295f190b047c181047e8b1c0717bb/artifacts
+end_time: 1703704747652
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b38295f190b047c181047e8b1c0717bb
+run_name: angry-gull-184
+run_uuid: b38295f190b047c181047e8b1c0717bb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703704745624
+status: 3
+tags: []
+user_id: kda

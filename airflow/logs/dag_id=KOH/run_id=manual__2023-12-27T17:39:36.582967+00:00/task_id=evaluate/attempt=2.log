@@ -1,0 +1,47 @@
+[2023-12-27T22:45:16.455+0500] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: KOH.evaluate manual__2023-12-27T17:39:36.582967+00:00 [queued]>
+[2023-12-27T22:45:16.461+0500] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: KOH.evaluate manual__2023-12-27T17:39:36.582967+00:00 [queued]>
+[2023-12-27T22:45:16.462+0500] {taskinstance.py:1361} INFO - Starting attempt 2 of 2
+[2023-12-27T22:45:16.479+0500] {taskinstance.py:1382} INFO - Executing <Task(BashOperator): evaluate> on 2023-12-27 17:39:36.582967+00:00
+[2023-12-27T22:45:16.487+0500] {standard_task_runner.py:57} INFO - Started process 5799 to run task
+[2023-12-27T22:45:16.497+0500] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'KOH', 'evaluate', 'manual__2023-12-27T17:39:36.582967+00:00', '--job-id', '173', '--raw', '--subdir', 'DAGS_FOLDER/text.py', '--cfg-path', '/tmp/tmpli__6h3f']
+[2023-12-27T22:45:16.498+0500] {standard_task_runner.py:85} INFO - Job 173: Subtask evaluate
+[2023-12-27T22:45:16.542+0500] {task_command.py:416} INFO - Running <TaskInstance: KOH.evaluate manual__2023-12-27T17:39:36.582967+00:00 [running]> on host vm2.myguest.virtualbox.org
+[2023-12-27T22:45:16.603+0500] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Admin' AIRFLOW_CTX_DAG_ID='KOH' AIRFLOW_CTX_TASK_ID='evaluate' AIRFLOW_CTX_EXECUTION_DATE='2023-12-27T17:39:36.582967+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-12-27T17:39:36.582967+00:00'
+[2023-12-27T22:45:16.603+0500] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2023-12-27T22:45:16.604+0500] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'cd /home/kda/ML_lab3/MLops_lab3/ && python /home/kda/ML_lab3/MLops_lab3/scripts/evaluate.py']
+[2023-12-27T22:45:16.611+0500] {subprocess.py:86} INFO - Output:
+[2023-12-27T22:45:19.108+0500] {subprocess.py:93} INFO - <class 'pandas.core.frame.DataFrame'>
+[2023-12-27T22:45:19.108+0500] {subprocess.py:93} INFO - RangeIndex: 704 entries, 0 to 703
+[2023-12-27T22:45:19.108+0500] {subprocess.py:93} INFO - Columns: 220 entries, Price (in USD) to i8
+[2023-12-27T22:45:19.108+0500] {subprocess.py:93} INFO - dtypes: bool(212), float64(2), int64(6)
+[2023-12-27T22:45:19.108+0500] {subprocess.py:93} INFO - memory usage: 189.9 KB
+[2023-12-27T22:45:19.108+0500] {subprocess.py:93} INFO -      Price (in USD)  Unnamed: 0.2  Unnamed: 0.1  ...  Z4 M40i  Z4 Roadster     i8
+[2023-12-27T22:45:19.108+0500] {subprocess.py:93} INFO - 0             67600           912           912  ...    False        False  False
+[2023-12-27T22:45:19.108+0500] {subprocess.py:93} INFO - 1             81250           843           843  ...    False        False  False
+[2023-12-27T22:45:19.109+0500] {subprocess.py:93} INFO - 2             69000           293           293  ...    False        False  False
+[2023-12-27T22:45:19.109+0500] {subprocess.py:93} INFO - 3            180000           554           554  ...    False        False  False
+[2023-12-27T22:45:19.109+0500] {subprocess.py:93} INFO - 4             64695           581           581  ...    False        False  False
+[2023-12-27T22:45:19.109+0500] {subprocess.py:93} INFO - ..              ...           ...           ...  ...      ...          ...    ...
+[2023-12-27T22:45:19.109+0500] {subprocess.py:93} INFO - 298          250000           951           951  ...    False        False  False
+[2023-12-27T22:45:19.109+0500] {subprocess.py:93} INFO - 299         2600000           523           523  ...    False        False  False
+[2023-12-27T22:45:19.109+0500] {subprocess.py:93} INFO - 300          103500            61            61  ...    False        False  False
+[2023-12-27T22:45:19.109+0500] {subprocess.py:93} INFO - 301          157500           355           355  ...    False        False  False
+[2023-12-27T22:45:19.109+0500] {subprocess.py:93} INFO - 302          200000           335           335  ...    False        False  False
+[2023-12-27T22:45:19.109+0500] {subprocess.py:93} INFO - 
+[2023-12-27T22:45:19.109+0500] {subprocess.py:93} INFO - [303 rows x 220 columns]
+[2023-12-27T22:45:19.109+0500] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2023-12-27T22:45:19.109+0500] {subprocess.py:93} INFO -   File "/home/kda/ML_lab3/MLops_lab3/scripts/evaluate.py", line 130, in <module>
+[2023-12-27T22:45:19.109+0500] {subprocess.py:93} INFO -     tune_hyperparams(X_train,y_train,x_test,y_test)
+[2023-12-27T22:45:19.109+0500] {subprocess.py:93} INFO -   File "/home/kda/ML_lab3/MLops_lab3/scripts/evaluate.py", line 57, in tune_hyperparams
+[2023-12-27T22:45:19.109+0500] {subprocess.py:93} INFO -     for params in search_space(*search_space.values()):
+[2023-12-27T22:45:19.110+0500] {subprocess.py:93} INFO - TypeError: 'dict' object is not callable
+[2023-12-27T22:45:19.754+0500] {subprocess.py:97} INFO - Command exited with return code 1
+[2023-12-27T22:45:19.760+0500] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/airflow/operators/bash.py", line 210, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2023-12-27T22:45:19.762+0500] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=KOH, task_id=evaluate, execution_date=20231227T173936, start_date=20231227T174516, end_date=20231227T174519
+[2023-12-27T22:45:19.777+0500] {standard_task_runner.py:104} ERROR - Failed to execute job 173 for task evaluate (Bash command failed. The command returned a non-zero exit code 1.; 5799)
+[2023-12-27T22:45:19.789+0500] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-12-27T22:45:19.800+0500] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

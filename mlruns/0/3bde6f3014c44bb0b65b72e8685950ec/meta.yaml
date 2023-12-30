@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/3bde6f3014c44bb0b65b72e8685950ec/artifacts
+end_time: 1703704581573
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3bde6f3014c44bb0b65b72e8685950ec
+run_name: treasured-ant-82
+run_uuid: 3bde6f3014c44bb0b65b72e8685950ec
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703704578802
+status: 3
+tags: []
+user_id: kda

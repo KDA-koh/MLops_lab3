@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/4154cc0ac45c4b8687dc39294d3c052a/artifacts
+end_time: 1703703297742
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4154cc0ac45c4b8687dc39294d3c052a
+run_name: flawless-fish-242
+run_uuid: 4154cc0ac45c4b8687dc39294d3c052a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703703295018
+status: 3
+tags: []
+user_id: kda

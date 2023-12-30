@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/c173c3a2435c48aaa1a76ff2cbe1ff8b/artifacts
+end_time: 1703704054084
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c173c3a2435c48aaa1a76ff2cbe1ff8b
+run_name: rogue-chimp-172
+run_uuid: c173c3a2435c48aaa1a76ff2cbe1ff8b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703704052511
+status: 3
+tags: []
+user_id: kda

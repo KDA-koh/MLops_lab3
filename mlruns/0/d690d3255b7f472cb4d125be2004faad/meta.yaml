@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/d690d3255b7f472cb4d125be2004faad/artifacts
+end_time: 1703704552966
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d690d3255b7f472cb4d125be2004faad
+run_name: worried-bird-571
+run_uuid: d690d3255b7f472cb4d125be2004faad
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703704551237
+status: 3
+tags: []
+user_id: kda

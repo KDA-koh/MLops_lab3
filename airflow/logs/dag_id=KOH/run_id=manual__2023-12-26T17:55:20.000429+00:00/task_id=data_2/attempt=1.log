@@ -1,0 +1,16 @@
+[2023-12-26T22:55:40.849+0500] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: KOH.data_2 manual__2023-12-26T17:55:20.000429+00:00 [queued]>
+[2023-12-26T22:55:40.862+0500] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: KOH.data_2 manual__2023-12-26T17:55:20.000429+00:00 [queued]>
+[2023-12-26T22:55:40.863+0500] {taskinstance.py:1361} INFO - Starting attempt 1 of 2
+[2023-12-26T22:55:40.890+0500] {taskinstance.py:1382} INFO - Executing <Task(BashOperator): data_2> on 2023-12-26 17:55:20.000429+00:00
+[2023-12-26T22:55:40.896+0500] {standard_task_runner.py:57} INFO - Started process 11570 to run task
+[2023-12-26T22:55:40.899+0500] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'KOH', 'data_2', 'manual__2023-12-26T17:55:20.000429+00:00', '--job-id', '60', '--raw', '--subdir', 'DAGS_FOLDER/text.py', '--cfg-path', '/tmp/tmpqi2uwwy6']
+[2023-12-26T22:55:40.901+0500] {standard_task_runner.py:85} INFO - Job 60: Subtask data_2
+[2023-12-26T22:55:40.972+0500] {task_command.py:416} INFO - Running <TaskInstance: KOH.data_2 manual__2023-12-26T17:55:20.000429+00:00 [running]> on host vm2.myguest.virtualbox.org
+[2023-12-26T22:55:41.106+0500] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Admin' AIRFLOW_CTX_DAG_ID='KOH' AIRFLOW_CTX_TASK_ID='data_2' AIRFLOW_CTX_EXECUTION_DATE='2023-12-26T17:55:20.000429+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-12-26T17:55:20.000429+00:00'
+[2023-12-26T22:55:41.107+0500] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2023-12-26T22:55:41.108+0500] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'python /home/kda/ML_lab3/MLops_lab3/scripts/script2.py']
+[2023-12-26T22:55:41.124+0500] {subprocess.py:86} INFO - Output:
+[2023-12-26T22:55:42.541+0500] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-12-26T22:55:42.611+0500] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=KOH, task_id=data_2, execution_date=20231226T175520, start_date=20231226T175540, end_date=20231226T175542
+[2023-12-26T22:55:42.718+0500] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-26T22:55:42.767+0500] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/93b4d4e513d149db975ad25acc19f697/artifacts
+end_time: 1703704742155
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 93b4d4e513d149db975ad25acc19f697
+run_name: chill-gull-437
+run_uuid: 93b4d4e513d149db975ad25acc19f697
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703704740537
+status: 3
+tags: []
+user_id: kda

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/cbe6258c42844f42a0aa44e26fccf851/artifacts
+end_time: 1703703223602
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cbe6258c42844f42a0aa44e26fccf851
+run_name: gentle-sow-745
+run_uuid: cbe6258c42844f42a0aa44e26fccf851
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703703220785
+status: 3
+tags: []
+user_id: kda

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/fba5eef1a922430184748d5cbe53e161/artifacts
+end_time: 1703704744017
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fba5eef1a922430184748d5cbe53e161
+run_name: upset-cow-310
+run_uuid: fba5eef1a922430184748d5cbe53e161
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703704742158
+status: 3
+tags: []
+user_id: kda

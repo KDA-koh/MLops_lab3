@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/60d6fcf1ce0b410b9f4f0dbbf541f32f/artifacts
+end_time: 1703704841121
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 60d6fcf1ce0b410b9f4f0dbbf541f32f
+run_name: bittersweet-kit-943
+run_uuid: 60d6fcf1ce0b410b9f4f0dbbf541f32f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703704839439
+status: 3
+tags: []
+user_id: kda

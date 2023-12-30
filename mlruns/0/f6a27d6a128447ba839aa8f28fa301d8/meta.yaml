@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/f6a27d6a128447ba839aa8f28fa301d8/artifacts
+end_time: 1703704548355
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f6a27d6a128447ba839aa8f28fa301d8
+run_name: puzzled-zebra-754
+run_uuid: f6a27d6a128447ba839aa8f28fa301d8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703704545485
+status: 3
+tags: []
+user_id: kda

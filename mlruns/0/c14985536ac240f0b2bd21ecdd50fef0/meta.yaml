@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/c14985536ac240f0b2bd21ecdd50fef0/artifacts
+end_time: 1703704021848
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c14985536ac240f0b2bd21ecdd50fef0
+run_name: abrasive-hawk-925
+run_uuid: c14985536ac240f0b2bd21ecdd50fef0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703704020204
+status: 3
+tags: []
+user_id: kda

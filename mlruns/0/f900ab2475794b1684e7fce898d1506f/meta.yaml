@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/f900ab2475794b1684e7fce898d1506f/artifacts
+end_time: 1703704762554
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f900ab2475794b1684e7fce898d1506f
+run_name: melodic-steed-735
+run_uuid: f900ab2475794b1684e7fce898d1506f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703704760293
+status: 3
+tags: []
+user_id: kda

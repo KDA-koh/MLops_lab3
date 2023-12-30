@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1703704835935
+current_stage: None
+description: null
+last_updated_timestamp: 1703704835935
+name: clf
+run_id: d1a23d8e529e4535b5c180d9cc5ab339
+run_link: null
+source: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/d1a23d8e529e4535b5c180d9cc5ab339/artifacts/sklearn-model
+status: READY
+status_message: null
+storage_location: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/d1a23d8e529e4535b5c180d9cc5ab339/artifacts/sklearn-model
+user_id: null
+version: 155

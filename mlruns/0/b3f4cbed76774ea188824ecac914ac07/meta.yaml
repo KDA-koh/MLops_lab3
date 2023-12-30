@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/b3f4cbed76774ea188824ecac914ac07/artifacts
+end_time: 1703703176528
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b3f4cbed76774ea188824ecac914ac07
+run_name: incongruous-loon-830
+run_uuid: b3f4cbed76774ea188824ecac914ac07
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703703171609
+status: 3
+tags: []
+user_id: kda

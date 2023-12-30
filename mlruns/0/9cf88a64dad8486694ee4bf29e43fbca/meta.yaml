@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/9cf88a64dad8486694ee4bf29e43fbca/artifacts
+end_time: 1703703309692
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9cf88a64dad8486694ee4bf29e43fbca
+run_name: abundant-hound-70
+run_uuid: 9cf88a64dad8486694ee4bf29e43fbca
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703703305648
+status: 3
+tags: []
+user_id: kda

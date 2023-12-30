@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/1bac43d32872474782ecc982c5a2b069/artifacts
+end_time: 1703703350516
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1bac43d32872474782ecc982c5a2b069
+run_name: stately-fawn-584
+run_uuid: 1bac43d32872474782ecc982c5a2b069
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703703347984
+status: 3
+tags: []
+user_id: kda

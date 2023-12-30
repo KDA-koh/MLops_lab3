@@ -1,0 +1,34 @@
+[2023-12-30T12:25:11.913+0500] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: KOH.evaluate manual__2023-12-30T07:21:58.394068+00:00 [queued]>
+[2023-12-30T12:25:11.921+0500] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: KOH.evaluate manual__2023-12-30T07:21:58.394068+00:00 [queued]>
+[2023-12-30T12:25:11.922+0500] {taskinstance.py:1361} INFO - Starting attempt 1 of 2
+[2023-12-30T12:25:11.969+0500] {taskinstance.py:1382} INFO - Executing <Task(BashOperator): evaluate> on 2023-12-30 07:21:58.394068+00:00
+[2023-12-30T12:25:11.974+0500] {standard_task_runner.py:57} INFO - Started process 19396 to run task
+[2023-12-30T12:25:11.982+0500] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'KOH', 'evaluate', 'manual__2023-12-30T07:21:58.394068+00:00', '--job-id', '310', '--raw', '--subdir', 'DAGS_FOLDER/text.py', '--cfg-path', '/tmp/tmpj2abwzgo']
+[2023-12-30T12:25:11.989+0500] {standard_task_runner.py:85} INFO - Job 310: Subtask evaluate
+[2023-12-30T12:25:12.078+0500] {task_command.py:416} INFO - Running <TaskInstance: KOH.evaluate manual__2023-12-30T07:21:58.394068+00:00 [running]> on host vm2.myguest.virtualbox.org
+[2023-12-30T12:25:12.210+0500] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Admin' AIRFLOW_CTX_DAG_ID='KOH' AIRFLOW_CTX_TASK_ID='evaluate' AIRFLOW_CTX_EXECUTION_DATE='2023-12-30T07:21:58.394068+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-12-30T07:21:58.394068+00:00'
+[2023-12-30T12:25:12.211+0500] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2023-12-30T12:25:12.212+0500] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'cd /home/kda/ML_lab3/MLops_lab3/ && python /home/kda/ML_lab3/MLops_lab3/scripts/evaluate.py']
+[2023-12-30T12:25:12.227+0500] {subprocess.py:86} INFO - Output:
+[2023-12-30T12:25:13.935+0500] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2023-12-30T12:25:13.935+0500] {subprocess.py:93} INFO -   File "/home/kda/ML_lab3/MLops_lab3/scripts/evaluate.py", line 76, in <module>
+[2023-12-30T12:25:13.935+0500] {subprocess.py:93} INFO -     loaded_model = mlflow.sklearn.load_model("runs:/e623096ff0754754ae126f762681af8c/model")
+[2023-12-30T12:25:13.936+0500] {subprocess.py:93} INFO -   File "/home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/mlflow/sklearn/__init__.py", line 613, in load_model
+[2023-12-30T12:25:13.938+0500] {subprocess.py:93} INFO -     local_model_path = _download_artifact_from_uri(artifact_uri=model_uri, output_path=dst_path)
+[2023-12-30T12:25:13.938+0500] {subprocess.py:93} INFO -   File "/home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/mlflow/tracking/artifact_utils.py", line 100, in _download_artifact_from_uri
+[2023-12-30T12:25:13.940+0500] {subprocess.py:93} INFO -     return get_artifact_repository(artifact_uri=root_uri).download_artifacts(
+[2023-12-30T12:25:13.940+0500] {subprocess.py:93} INFO -   File "/home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/mlflow/store/artifact/runs_artifact_repo.py", line 125, in download_artifacts
+[2023-12-30T12:25:13.940+0500] {subprocess.py:93} INFO -     return self.repo.download_artifacts(artifact_path, dst_path)
+[2023-12-30T12:25:13.940+0500] {subprocess.py:93} INFO -   File "/home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/mlflow/store/artifact/local_artifact_repo.py", line 81, in download_artifacts
+[2023-12-30T12:25:13.941+0500] {subprocess.py:93} INFO -     raise OSError(f"No such file or directory: '{local_artifact_path}'")
+[2023-12-30T12:25:13.941+0500] {subprocess.py:93} INFO - OSError: No such file or directory: '/home/kda/ML_lab3/MLops_lab3/mlflow/4/e623096ff0754754ae126f762681af8c/artifacts/model'
+[2023-12-30T12:25:14.331+0500] {subprocess.py:97} INFO - Command exited with return code 1
+[2023-12-30T12:25:14.343+0500] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/kda/ML_lab3/MLops_lab3/lab3/lib/python3.10/site-packages/airflow/operators/bash.py", line 210, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2023-12-30T12:25:14.360+0500] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=KOH, task_id=evaluate, execution_date=20231230T072158, start_date=20231230T072511, end_date=20231230T072514
+[2023-12-30T12:25:14.410+0500] {standard_task_runner.py:104} ERROR - Failed to execute job 310 for task evaluate (Bash command failed. The command returned a non-zero exit code 1.; 19396)
+[2023-12-30T12:25:14.434+0500] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-12-30T12:25:14.454+0500] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

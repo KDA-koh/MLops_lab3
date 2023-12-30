@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/d8cc041a8e4f4b96bdb0876736028d47/artifacts
+end_time: 1703704751304
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d8cc041a8e4f4b96bdb0876736028d47
+run_name: nosy-wren-695
+run_uuid: d8cc041a8e4f4b96bdb0876736028d47
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703704749656
+status: 3
+tags: []
+user_id: kda

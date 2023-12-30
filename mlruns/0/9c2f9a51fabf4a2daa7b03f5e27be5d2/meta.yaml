@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/9c2f9a51fabf4a2daa7b03f5e27be5d2/artifacts
+end_time: 1703704734352
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9c2f9a51fabf4a2daa7b03f5e27be5d2
+run_name: intelligent-robin-26
+run_uuid: 9c2f9a51fabf4a2daa7b03f5e27be5d2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703704727881
+status: 3
+tags: []
+user_id: kda

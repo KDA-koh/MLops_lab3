@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/ad14b8562bad47fe8c7a9d0510de26eb/artifacts
+end_time: 1703704858776
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ad14b8562bad47fe8c7a9d0510de26eb
+run_name: overjoyed-mule-854
+run_uuid: ad14b8562bad47fe8c7a9d0510de26eb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703704856867
+status: 3
+tags: []
+user_id: kda

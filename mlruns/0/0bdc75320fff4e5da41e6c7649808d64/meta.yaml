@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/0bdc75320fff4e5da41e6c7649808d64/artifacts
+end_time: 1703703312653
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0bdc75320fff4e5da41e6c7649808d64
+run_name: amazing-roo-906
+run_uuid: 0bdc75320fff4e5da41e6c7649808d64
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703703309695
+status: 3
+tags: []
+user_id: kda

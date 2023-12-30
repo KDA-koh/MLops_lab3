@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kda/ML_lab3/MLops_lab3/mlruns/0/7af6894ccd1647c682fd667bd5892016/artifacts
+end_time: 1703703217559
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7af6894ccd1647c682fd667bd5892016
+run_name: aged-dolphin-471
+run_uuid: 7af6894ccd1647c682fd667bd5892016
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703703210946
+status: 3
+tags: []
+user_id: kda
