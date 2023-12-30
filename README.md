@@ -14,3 +14,4 @@
 Подбирал гиперпараметры, затем лучший эксперемент сохранял и использовал для итоговой тренировки модели.
 ![](https://github.com/KDA-koh/MLops_lab3_lab4/blob/main/train_list.jpg)
 ![](https://github.com/KDA-koh/MLops_lab3_lab4/blob/main/models_runs.jpg)
+![](https://github.com/KDA-koh/MLops_lab3_lab4/blob/main/test_list.jpg)
